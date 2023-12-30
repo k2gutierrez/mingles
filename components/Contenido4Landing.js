@@ -19,7 +19,7 @@ const fontAgrandir = localFont({
 function Contenido4Landing() {
   return (
     <main className={cls(styles.fondo, 'row align-items-center')}>
-        <Image src={fondo1} className='img-fluid' alt="Don't miss out" width={1366.66} height={765.93} />
+        <Image src={fondo1} className='img-fluid' alt="mingles" width={1366.66} height={765.93} />
         <div className={cls(fontQuirky.className, styles.contenido, 'row text-center')}>
             <div className='row'>
                 <p className={cls(styles.text1, 'mb-3 pt-5 p-1')}>
