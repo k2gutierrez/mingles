@@ -1,0 +1,152 @@
+.fondo {
+    /*background: url('../public/assets/fondos/primerFondo.png'), lightgray 0px 0px / 100% 100% no-repeat;*/
+    position: relative;
+}
+
+.contenido {
+    position: absolute;
+    top: 8%;
+}
+
+.text1 {
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #FFFDEF;
+    font-size: 48px;
+}
+
+.buttons {
+    font-size: 23.029px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.nftproject {
+    font-size: 61.399px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.textNftProject {
+    color: #FFF;
+    font-size: 27.968px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.forsaken {
+    color: #FFFDEF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.forsaken2 {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal; 
+}
+
+.worm {
+    color: #FFF;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+
+.wormImg {
+    border: black;
+    border-style: solid;
+    border-radius: 50%;
+    border-width: thick;
+}
+
+/* Mobile */
+@media (max-width: 700px) {   
+    .text1 {
+        font-size: 22px;
+        margin-top: 60px;
+    }
+    
+    .buttons {
+        font-size: 13px;
+    }
+    
+    .nftproject {
+        font-size: 20px;
+    }
+    
+    .textNftProject {
+        font-size: 17px;
+    }
+    
+    .forsaken {
+        font-size:20px;
+    }
+    
+    .forsaken2 {
+        font-size: 14px;
+    }
+    
+    .worm {
+        font-size: 14px;
+    }
+
+    .wormImg {
+        width: 150px;
+        height: 150px;
+    }
+
+    .contenido {
+        top: 2%;
+    }
+ 
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+    .text1 {
+        font-size: 32px;
+    }
+    
+    .buttons {
+        font-size: 18px;
+    }
+    
+    .nftproject {
+        font-size: 40px;
+    }
+    
+    .textNftProject {
+        font-size: 22px;
+    }
+    
+    .forsaken {
+        font-size:34px;
+    }
+    
+    .forsaken2 {
+        font-size: 19px;
+    }
+    
+    .worm {
+        font-size: 19px;
+    }
+
+    .wormImg {
+        width: 250px;
+        height: 250px;
+    }
+
+    .contenido {
+        top: 9%;
+    }
+}

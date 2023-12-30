@@ -1,0 +1,67 @@
+.fondo {
+    background-color: black ;
+
+}
+
+.text1 {
+    color: #FFFDEF;
+    font-size: 57.651px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.text2 {
+    color: #FFF;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.buttons {
+    color: #000;
+    font-size: 44.181px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Mobile */
+@media (max-width: 700px) {   
+
+
+    .text1 {
+        font-size: 40px;
+    }
+
+    .text2 {
+        font-size: 16px;
+    }
+
+    .WormCircle {
+        width: 150px;
+        height: auto;
+    }
+
+    .buttons {
+        font-size: 22px;
+    }
+    
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+    .text1 {
+        font-size: 34px;
+    }
+
+    .text2 {
+        font-size: 14px;
+    }
+
+    .buttons {
+        font-size: 32px;
+    }
+    
+}

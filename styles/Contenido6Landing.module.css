@@ -1,0 +1,43 @@
+.fondo {
+    position: relative;
+}
+
+.contenido {
+    position: absolute;
+    width: 1000px;
+    height: 700px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+.text1 {
+    color: #FFFDEF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Mobile */
+@media (max-width: 700px) {   
+    .text1 {
+        font-size: 18px;
+    }
+
+    .contenido {
+        width: 400px;
+        height: 200px;
+   }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+    .text1 {
+        font-size: 38px;
+    }
+
+    .contenido {
+         width: 700px;
+        height: 400px;
+    }
+}

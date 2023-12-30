@@ -1,0 +1,80 @@
+.fondo {
+    position: relative;
+}
+
+.contenido {
+    position: absolute;
+}
+
+.text1 {
+    color: #FFFDEF;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.buttons {
+    color: #000;
+    font-size: 23.029px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Mobile */
+@media (max-width: 700px) {   
+
+    .text1 {
+        font-size: 18px;
+    }
+
+    .n1 {
+        width: 50px;
+        height: auto;
+    }
+
+    .n2 {
+        width: 50px;
+        height: auto;
+    }
+
+    .n3 {
+        width: 50px;
+        height: auto;
+    }
+    
+    .buttons {
+        font-size: 12px;
+        margin-bottom: 40px;
+    }
+ 
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+
+
+    .text1 {
+        font-size: 38px;
+    }
+
+    .n1 {
+        width: 110px;
+        height: auto;
+    }
+
+    .n2 {
+        width: 110px;
+        height: auto;
+    }
+
+    .n3 {
+        width: 110px;
+        height: auto;
+    }
+    
+    .buttons {
+        font-size: 16px;
+    }
+}

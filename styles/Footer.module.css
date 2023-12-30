@@ -1,0 +1,42 @@
+.text1 {
+    color: #000;
+    font-size: 57.572px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.buttons {
+    color: #000;
+    font-size: 31.172px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* Mobile */
+@media (max-width: 700px) {   
+
+    .text1 {
+        font-size: 25px;
+    }
+
+    .buttons {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+ 
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+
+
+    .text1 {
+        font-size: 40px;
+    }
+    
+    .buttons {
+        font-size: 28px;
+    }
+}
