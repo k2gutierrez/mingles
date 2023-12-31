@@ -25,7 +25,7 @@ function Contenido1Landing() {
             <div className='row align-items-center mb-md-4 mb-2'>
                 <div className='col-md-4 col-sm-6 col-12'>
                     <div className={cls(fontQuirky.className, styles.text1, 'row')}>
-                        <p className={styles.quirk}>Let's buy a <br/> tequila distillery <br/> together!</p>
+                        <p className={styles.quirk}>Let&apos;s buy a <br/> tequila distillery <br/> together!</p>
                     </div>
                     <div className='mt-4'>
                         <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light me-1")} >Download PDF</button>
@@ -45,7 +45,7 @@ function Contenido1Landing() {
             </div>
             <div className={cls('row mt-lg-5 mt-2')}>
                 <p className={cls(fontQuirky.className, styles.forsaken)}>The foresaken story of Tequila</p>
-                <p className={cls(fontAgrandir.className, styles.forsaken2)}>A <span className={cls(fontAgrandir.className, styles.worm)}>worm</span> call Y'all Mingles out there. <br/> It's time to bring our legacy back</p>
+                <p className={cls(fontAgrandir.className, styles.forsaken2)}>A <span className={cls(fontAgrandir.className, styles.worm)}>worm</span> call Y&apos;all Mingles out there. <br/> It's time to bring our legacy back</p>
             </div>
         </div>
     </main>
