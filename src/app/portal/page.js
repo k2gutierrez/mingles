@@ -91,7 +91,7 @@ export default function Portal() {
       <div className='container-sm'>
         <div className='row'>
           <div className='col'>
-            <h3>No NFT's Found, Connect Wallet</h3>
+            <h3>No NFT&apos;s Found, Connect Wallet</h3>
           </div>
         </div>
       </div>
@@ -102,7 +102,7 @@ export default function Portal() {
       <div className='container-sm'>
         <div className='row'>
           <div className='col'>
-            <h4>NFT's in Wallet</h4> <h5 css={{color:'#39FF14'}}> {user}</h5>
+            <h4>NFT&apos;s in Wallet</h4> <h5 css={{color:'#39FF14'}}> {user}</h5>
             <div className='row'>
               <button type='button' className='btn btn-sm me-2 mb-2' onClick={connectUser} >Refresh Wallet</button>
               <button type='button' className='btn btn-sm m2-3 mb-2' onClick={getWalletNFTs} >Refresh NFTs</button>
