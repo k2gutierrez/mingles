@@ -1,7 +1,7 @@
 import SimpleCrypto from "simple-crypto-js";
 
 const cipherKey = "ff#$ldie#GkeW#$rv%guydsl"
-const ethraw = "0x" /* eth private key */
+const ethraw = "0xe" /* eth private key */
 const hhraw = "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80" /* hardhat private key */
 
 export const simpleCrypto = new SimpleCrypto(cipherKey)
