@@ -23,7 +23,7 @@ function Contenido4Landing() {
         <div className={cls(fontQuirky.className, styles.contenido, 'row text-center')}>
             <div className='row'>
                 <p className={cls(styles.text1, 'mb-3 pt-5 p-1')}>
-                    DON'T MiSS OUT
+                    DON&apos;T MiSS OUT
                 </p>
             </div>
             <div className='col-4'>
