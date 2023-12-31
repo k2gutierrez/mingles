@@ -132,8 +132,8 @@ export default function Scroll() {
                             Chief Information Security Officer at CEDEM
                         </p>
                         <p className={cls(styles.text2)}>
-                            With a Master's in Cybersecurity he specializes in programming and developing blockchain dapps. Renowned 
-                            for integrating cutting-edge security measures with project management to fortify and advance the company's digital infrastructure.
+                            With a Master&apos;s in Cybersecurity he specializes in programming and developing blockchain dapps. Renowned 
+                            for integrating cutting-edge security measures with project management to fortify and advance the company&apos;s digital infrastructure.
                         </p>
                     </div>
                 </div>
