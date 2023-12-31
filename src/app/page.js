@@ -5,7 +5,6 @@ import Contenido3Landing from '../../components/Contenido3Landing'
 import Contenido4Landing from '../../components/Contenido4Landing'
 import Contenido5Landing from '../../components/Contenido5Landing'
 import Contenido6Landing from '../../components/Contenido6Landing'
-import Footer from '../../components/Footer'
 
 export default function Home() {
   return (
@@ -16,7 +15,6 @@ export default function Home() {
       <Contenido4Landing />
       <Contenido5Landing />
       <Contenido6Landing />
-      <Footer />
     </main>
   )
 }
