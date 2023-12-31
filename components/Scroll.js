@@ -22,6 +22,7 @@ const fontAgrandir = localFont({
 export default function Scroll() {
   return (
     <>
+        
         <div class={cls(styles.over, "row")}>
   <div class="">
     <div data-bs-spy="scroll" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
@@ -35,6 +36,7 @@ export default function Scroll() {
                     </div>
                 </div>
                 <div className='col-9 p-3'>
+                    <p className={cls(fontQuirky.className, styles.titles, 'text-start')}>MBA Guillermo Gutierrez</p>
                     <div className={cls(styles.cont, 'text-start p-3')}>
                         <p className={cls(styles.text1)}>
                             Chief Marketing Officer Grupo Escala USA
@@ -52,6 +54,7 @@ export default function Scroll() {
                     </div>
                 </div>
                 <div className='col-9 p-3'>
+                    <p className={cls(fontQuirky.className, styles.titles, 'text-start')}>honey B.</p>
                     <div className={cls(styles.cont, 'text-start p-3')}>
                         <p className={cls(styles.text1)}>
                             Chief brand officer @cetsfk
@@ -69,6 +72,7 @@ export default function Scroll() {
                     </div>
                 </div>
                 <div className='col-9 p-3'>
+                    <p className={cls(fontQuirky.className, styles.titles, 'text-start')}>IRENE ZAMBRANO</p>
                     <div className={cls(styles.cont, 'text-start p-3')}>
                         <p className={cls(styles.text1)}>
                             Design and Brand Advisro for Mingles
@@ -87,6 +91,7 @@ export default function Scroll() {
                     </div>
                 </div>
                 <div className='col-9 p-3'>
+                    <p className={cls(fontQuirky.className, styles.titles, 'text-start')}>emmanuel delva</p>
                     <div className={cls(styles.cont, 'text-start p-3')}>
                         <p className={cls(styles.text1)}>
                             Law & Tech at Delva & Asociados
@@ -102,7 +107,7 @@ export default function Scroll() {
         </div>
 
         <div className='col-md-6 col-12'>
-            <div className='row'>
+            <div className='row align-items-center'>
 
                 <div className='col-3'>
                     <div className='row'>
@@ -110,6 +115,7 @@ export default function Scroll() {
                     </div>
                 </div>
                 <div className='col-9 p-3'>
+                    <p className={cls(fontQuirky.className, styles.titles, 'text-start')}>VICTOR SANDOVAL</p>
                     <div className={cls(styles.cont, 'text-start p-3')}>
                         <p className={cls(styles.text1)}>
                             Founder of Tequila Disanty
@@ -127,6 +133,7 @@ export default function Scroll() {
                     </div>
                 </div>
                 <div className='col-9 p-3'>
+                    <p className={cls(fontQuirky.className, styles.titles, 'text-start')}>Carlos GUTIERREZ</p>
                     <div className={cls(styles.cont, 'text-start p-3')}>
                         <p className={cls(styles.text1)}>
                             Chief Information Security Officer at CEDEM
@@ -144,6 +151,7 @@ export default function Scroll() {
                     </div>
                 </div>
                 <div className='col-9 p-3'>
+                    <p className={cls(fontQuirky.className, styles.titles, 'text-start')}>xesus bobomb</p>
                     <div className={cls(styles.cont, 'text-start p-3')}>
                         <p className={cls(styles.text1)}>
                             Digital Character Artist

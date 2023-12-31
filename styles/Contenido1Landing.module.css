@@ -69,6 +69,16 @@
     border-width: thick;
 }
 
+.contorno {
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.contorno2 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: white;
+}
+
 /* Mobile */
 @media (max-width: 700px) {   
     .text1 {

@@ -23,6 +23,11 @@
     line-height: normal; 
 }
 
+.contorno {
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
+}
+
 /* Mobile */
 @media (max-width: 700px) {   
     .contenido {

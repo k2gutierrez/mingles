@@ -18,6 +18,9 @@ function Contenido6Landing() {
   return (
     <main className={cls(styles.fondo, 'row align-items-center')}>
         <Image src={fondo1} className='img-fluid' alt="Don't miss out" width={1366.66} height={765.93} />
+        <div className={cls(styles.cont)}>
+          <p className={cls(fontQuirky.className, styles.our)}>OUR TEAM</p>
+        </div>
         <div className={cls(fontQuirky.className, styles.contenido, 'overflow-auto row text-center')}>
             <Scroll />  
         </div>

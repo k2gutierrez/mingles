@@ -5,14 +5,28 @@
 .contenido {
     position: absolute;
     width: 1000px;
-    height: 700px;
+    height: 600px;
     left: 50%;
     transform: translate(-50%, 0);
+}
+
+.cont {
+    position: absolute;
+    top: 15%;
+    transform: translate(40%, -100%);
 }
 
 .text1 {
     color: #FFFDEF;
     font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.our {
+    color: #FFFDEF;
+    font-size: 77.995px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -28,6 +42,15 @@
         width: 400px;
         height: 200px;
    }
+
+   .cont {
+    top: 22%;
+    transform: translate(35%, -100%);
+}
+
+.our {
+    font-size: 28px;
+}
 }
 
 /* Tablet and Smaller Desktop */
@@ -37,7 +60,16 @@
     }
 
     .contenido {
-         width: 700px;
-        height: 400px;
+         width: 550px;
+        height: 250px;
+    }
+
+    .cont {
+        top: 21%;
+        transform: translate(40%, -100%);
+    }
+
+    .our {
+        font-size: 45px;
     }
 }

@@ -3,7 +3,7 @@ import styles from '../styles/Contenido3Landing.module.css'
 import cls from 'classnames'
 import Image from 'next/image'
 import WormCircle from '../public/assets/Logo/MingleToRound2.png'
-import monito from '../public/assets/Logo/monito.svg'
+import monito from '../public/assets/Logo/monito.png'
 import rectangle from '../public/assets/Logo/rectangulos.svg'
 import localFont from 'next/font/local'
 
@@ -35,7 +35,7 @@ function Contenido3Landing() {
         <div className={cls(fontAgrandir.className, 'row align-items-center p-4')}>
             <div className='col-sm-6 col-12'>
                 <div className='row my-2'>
-                    <div className='col-2'>
+                    <div className='col-2 text-center'>
                         <Image src={monito} className={cls('img-fluid')} alt='monito' width={33.426} height={36.212} /> 
                     </div>
                     <div className='col-10'>
@@ -51,7 +51,7 @@ function Contenido3Landing() {
             </div>
             <div className='col-sm-6 col-12'>
                 <div className='row'>
-                    <div className='col-2'>
+                    <div className='col-2 text-center'>
                         <Image src={rectangle} className={cls('img-fluid')} alt='rectangle' width={52.925} height={47.354} /> 
                     </div>
                     <div className='col-10'>
