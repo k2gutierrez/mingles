@@ -19,10 +19,10 @@ function Contenido2Landing() {
         <Image src={fondo1} className='img-fluid' alt='Join-Mingles' width={1462.78} height={538.77} />
         <div className={cls(fontAgrandir.className, styles.contenido, 'row text-center justify-content-center')}>
             <p className={styles.text2}>
-                "Rise of <span className={styles.text1}>Tequila, </span> fall of the Mingles. <br/>
-                In agave fields, our cradle, Industry's shadow loomed, <br/>
+                &quot;Rise of <span className={styles.text1}>Tequila, </span> fall of the Mingles. <br/>
+                In agave fields, our cradle, Industry&apos;s shadow loomed, <br/>
                 threatening  our existence. We, the resilent few, now seek allies. <br/>
-                <span className={styles.text2}>Join our epic revival.</span>"
+                <span className={styles.text2}>Join our epic revival.</span>&quot;
             </p>
         </div>
     </main>
