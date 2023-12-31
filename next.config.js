@@ -4,6 +4,7 @@ const { nextImageLoaderRegex } = require('next/dist/build/webpack-config')
 const nextConfig = {
     //webpack: nextImageLoaderRegex,
     images: {
+        unoptimized: true,
         remotePatterns: [
           {
             protocol: "https",
