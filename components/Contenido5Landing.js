@@ -29,7 +29,7 @@ function Contenido5Landing() {
                     Read our Manifesto, delve into the tequila <br/>
                     tales, and become part of our community. <br/>
                     Get exclusive updates on our journey - all <br/>
-                    starting with a click. Let's Mingle!
+                    starting with a click. Let&apos;s Mingle!
                 </p>
                 <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light mb-2 ms-3")} >Download PDF</button>
             </div>
