@@ -45,7 +45,7 @@ function Contenido1Landing() {
             </div>
             <div className={cls('row mt-lg-5 mt-2')}>
                 <p className={cls(fontQuirky.className, styles.forsaken, styles.contorno)}>The foresaken story of Tequila</p>
-                <p className={cls(fontAgrandir.className, styles.forsaken2)}>A <span className={cls(fontAgrandir.className, styles.worm)}>worm</span> call Y&apos;all Mingles out there. <br/> It's time to bring our legacy back</p>
+                <p className={cls(fontQuirky.className, styles.forsaken2, styles.contorno)}>A <span className={cls(fontQuirky.className, styles.worm, styles.contorno)}>worm</span> call Y&apos;all Mingles out there. <br/> It's time to bring our legacy back</p>
             </div>
         </div>
     </main>
