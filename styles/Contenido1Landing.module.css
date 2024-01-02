@@ -50,7 +50,7 @@
     color: #FFF;
     font-size: 24px;
     font-style: normal;
-    font-weight: 400;
+    font-weight: bolder;
     line-height: normal; 
 }
 
@@ -58,7 +58,7 @@
     color: #FFF;
     font-size: 24px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: bolder;
     line-height: normal; 
 }
 
@@ -77,6 +77,11 @@
 .contorno2 {
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: white;
+}
+
+.contorno3 {
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color: black;
 }
 
 /* Mobile */

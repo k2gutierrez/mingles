@@ -22,8 +22,8 @@ function Contenido4Landing() {
         <Image src={fondo1} className='img-fluid' alt="mingles" width={1366.66} height={765.93} />
         <div className={cls(fontQuirky.className, styles.contenido, 'row text-center')}>
             <div className='row'>
-                <p className={cls(styles.text1, 'mb-3 pt-5 p-1')}>
-                    DON&apos;T MiSS OUT
+                <p className={cls(styles.text1, styles.contorno, 'mb-3 pt-5 p-1')}>
+                    DoN&apos;T MiSS ouT 
                 </p>
             </div>
             <div className='col-4'>

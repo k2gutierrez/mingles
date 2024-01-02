@@ -4,15 +4,17 @@
 
 .contenido {
     position: absolute;
+
     width: 1000px;
-    height: 600px;
+    height: 800px;
+    top: 15%;
     left: 50%;
     transform: translate(-50%, 0);
 }
 
 .cont {
     position: absolute;
-    top: 15%;
+    top: 13.5%;
     transform: translate(40%, -100%);
 }
 
@@ -30,6 +32,8 @@
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 3px;
 }
 
 /* Mobile */

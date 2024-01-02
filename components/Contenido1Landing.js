@@ -5,6 +5,7 @@ import Image from 'next/image'
 import fondo1 from '../public/assets/fondos/primerFondo.png'
 import fondo2 from '../public/assets/fondos/agavebackground_Vertical.png'
 import WormCircle from '../public/assets/Logo/MingleToRound.png'
+import recurso from '../public/assets/recurso14.png'
 import localFont from 'next/font/local'
 import Slider from './Slider'
 
@@ -33,7 +34,7 @@ function Contenido1Landing() {
                     </div>
                 </div>
                 <div className='col-md-4 col-6'>
-                    <Image className={cls(styles.wormImg, 'img-fluid')} src={WormCircle} alt='Mingle' width={450} height={450} />
+                    <Image className={cls(styles.wormImg, 'img-fluid')} src={WormCircle} alt='Mingle' width={350} height={350} />
                 </div>
                 <div className='col-md-4 col-sm-12 col-6 pt-4'>
                     <div className='row'>
@@ -45,7 +46,10 @@ function Contenido1Landing() {
             </div>
             <div className={cls('row mt-lg-5 mt-2')}>
                 <p className={cls(fontQuirky.className, styles.forsaken, styles.contorno)}>The foresaken story of Tequila</p>
-                <p className={cls(fontQuirky.className, styles.forsaken2, styles.contorno)}>A <span className={cls(fontQuirky.className, styles.worm, styles.contorno)}>worm</span> call Y&apos;all Mingles out there. <br/> It's time to bring our legacy back</p>
+                <div className='mt-5'>
+                <Image src={recurso} className='img-fluid' alt="y'all Mingle!" width={528} height={809.5} />
+                </div>
+                {/*<p className={cls(fontAgrandir.className, styles.forsaken2)}>A <span className={cls(fontAgrandir.className, styles.worm)}>worm</span> call for y&apos;all to Mingle. <br/> It's time to bring our legacy back.</p>*/}
             </div>
         </div>
     </main>

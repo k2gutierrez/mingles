@@ -1,8 +1,5 @@
 'use client'
 import React from 'react'
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
 import styles from '../styles/Footer.module.css'
 import Image from 'next/image';
 import twitter from '../public/assets/Logo/twitter.svg'
@@ -10,6 +7,7 @@ import telegram from '../public/assets/Logo/telegram.png'
 import cls from 'classnames'
 import localFont from 'next/font/local'
 import Link from 'next/link';
+import logo from '../public/assets/Logo/Mingles_Logo_Color_Mesa_de_trabajo_1.png'
 
 const fontQuirky = localFont({ 
   src: '../public/fonts/quirky/QuirkySunflower.otf'
@@ -26,17 +24,17 @@ function Footer() {
       <div className='row d-flex align-items-center'>
         <div className='col-9'>
           <div className='row me-auto d-flex align-items-center'>
-            <div className='col-sm-4 col-12'>
+            <div className='col-sm-3 col-12'>
 
-              <p className={cls(fontAgrandir.className, styles.text1, 'me-3')}>Mingle up</p>
-
-            </div>
-            <div className='col-sm-4 col-12'>
-
-              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "mb-2 btn btn-outline-dark")}>Download PDF</button>
+              <Link href={'/'}><Image src={logo} className='img-fluid' alt='Mingles' width={292.48} height={66.853} ></Image></Link>
 
             </div>
-            <div className='col-sm-4 col-12'>
+            <div className='col-sm-3 col-12 text-end'>
+
+              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark")}>Download PDF</button>
+
+            </div>
+            <div className='col-sm-3 col-12 text-start'>
 
               <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark")}>Join Mingles</button>
 
