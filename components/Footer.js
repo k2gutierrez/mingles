@@ -23,22 +23,16 @@ function Footer() {
     <div className='container-sm p-3'>
       <div className='row d-flex align-items-center'>
         <div className='col-9'>
-          <div className='row me-auto d-flex align-items-center'>
-            <div className='col-sm-3 col-12'>
+          <div className=' gap-3 d-flex flex-column flex-sm-row justify-content-center align-items-center'>
 
               <Link href={'/'}><Image src={logo} className='img-fluid' alt='Mingles' width={292.48} height={66.853} ></Image></Link>
 
-            </div>
-            <div className='col-sm-3 col-12 text-end'>
 
               <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark")}>Download PDF</button>
 
-            </div>
-            <div className='col-sm-3 col-12 text-start'>
 
               <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark")}>Join Mingles</button>
 
-            </div>
           </div>
         </div>
         <div className='col-3 text-end'>

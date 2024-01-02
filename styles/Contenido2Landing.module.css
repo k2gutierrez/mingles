@@ -42,6 +42,11 @@
     margin-top: 100px;
 }
 
+.box {
+    padding: 20px;
+    margin-left: 10px;
+}
+
 /* Mobile */
 @media (max-width: 700px) {   
     .contenido {
@@ -49,11 +54,16 @@
     }
 
     .text1 {
-        font-size: 14px;
+        font-size: 12px;
     }
     
     .text2 {
-        font-size: 14px;
+        font-size: 12px;
+    }
+
+    .box {
+        padding: 8px;
+        margin-left: 10px;
     }
  
 }
@@ -61,10 +71,15 @@
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
     .text1 {
-        font-size: 26px;
+        font-size: 20px;
     }
     
     .text2 {
-        font-size: 26px;
+        font-size: 20px;
+    }
+
+    .box {
+        padding: 20px;
+        margin-left: 10px;
     }
 }
