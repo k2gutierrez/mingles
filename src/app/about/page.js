@@ -1,9 +1,12 @@
 import React from 'react'
 import styles from './page.module.css'
+import AboutComponent from '../../../components/AboutComponent'
 
 function About() {
   return (
-    <div>About</div>
+    <main>
+      <AboutComponent />
+    </main>
   )
 }
 
