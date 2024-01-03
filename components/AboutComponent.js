@@ -96,7 +96,7 @@ function AboutComponent() {
                 </p>
             </div>
         </div>
-        <div className={cls(styles.wormB, 'row text-center justify-content-center mb-5 p-5')}>
+        <div className={cls(styles.wormB, 'row text-center align-items-center justify-content-center mb-5 p-5')}>
             <div className={cls('d-flex flex-column flex-sm-row justify-content-center align-items-center gap-5')}>
                 <p className={cls(fontAgrandir.className, styles.wormText)}>
                     Join us at the crossroads of tequila <br />
@@ -105,7 +105,7 @@ function AboutComponent() {
                     the NFT space.
                 </p>
                 <div className={cls('col-sm-4 col-12')}>
-                    <Image src={worm} className={cls('img-fluid')} alt='Worm-Mingles' width={376} height={376} />
+                    <Image src={worm} className={cls('img-fluid')} alt='Worm-Mingles' width={180} height={180} />
                 </div>
             </div>
             
