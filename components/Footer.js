@@ -27,10 +27,10 @@ function Footer() {
 
               <Link href={'/'}><Image src={logo} className='img-fluid' alt='Mingles' width={240} height={66.853} ></Image></Link>
 
-              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark")}>Download Manifesto</button>
+              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-sm btn-outline-dark")}>Download Manifesto</button>
 
 
-              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark me-sm-auto")}>Join Mingles</button>
+              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-sm btn-outline-dark me-sm-auto")}>Join Mingles</button>
 
               <Link href="https://twitter.com/MinglesNFT"> <Image className='img-fluid' src={twitter} alt='mingle-twitter' width={61.281} height={61.281} ></Image> </Link>
               <Link href="#"> <Image className='img-fluid' src={telegram} alt='mingle-telegram' width={61.281} height={61.281} ></Image> </Link>

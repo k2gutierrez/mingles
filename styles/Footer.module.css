@@ -8,10 +8,10 @@
 
 .buttons {
     color: #000;
-    font-size: 40px;
     font-style: normal;
-    font-weight: 700;
+    font-weight: 800;
     line-height: normal;
+    width: 80%;
 }
 
 .cont {
@@ -19,14 +19,14 @@
 }
 
 /* Mobile */
-@media (max-width: 700px) {   
+@media (min-width: 1120px) {   
 
     .text1 {
         font-size: 25px;
     }
 
     .buttons {
-        width: 90%;
+        width: 15%;
     }
  
 }
@@ -40,7 +40,6 @@
     }
     
     .buttons {
-        font-size: 28px;
-        width: auto;
+        width: 30%;
     }
 }
