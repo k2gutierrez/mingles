@@ -74,9 +74,9 @@ function AboutComponent() {
                             Sustainable 
                             Business Model
                         </span> <br/>
-                        We combine NFT sales with a real-world <br />
-                        Tequila Distillery, ensuring a sustainable <br />
-                        and community-focused <br />
+                        We combine NFT sales with a real-world 
+                        Tequila Distillery, ensuring a sustainable 
+                        and community-focused 
                         business approach.
                     </p>
                 </div>
@@ -85,10 +85,10 @@ function AboutComponent() {
         </main>
         <div className={cls(styles.artistB, 'row text-center justify-content-center p-5')}>
             <div className={cls('d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3')}>
-                <Image src={artist} className={cls('img-fluid')} alt='Worm-Mingles' width={289} height={289} />
+                <Image src={artist} className={cls('img-fluid')} alt='Worm-Mingles' width={150} height={150} />
                 <p className={cls(fontAgrandir.className, styles.artist2, '')}>
                     <p className={cls(fontQuirky.className, styles.artist1)}>Meet the Artist</p>
-                    Xesus Bobomb <br />
+                    <b className={styles.xesus}>Xesus Bobomb</b> <br />
                     25-year-old-self-taught character artist from Tbilisi,
                     Georgia. Projects include animation for FC Liverpool,
                     and illustrations and branding for Red Bull Car Park 
@@ -105,7 +105,7 @@ function AboutComponent() {
                     the NFT space.
                 </p>
                 <div className={cls('col-sm-4 col-12')}>
-                    <Image src={worm} className={cls('img-fluid')} alt='Worm-Mingles' width={180} height={180} />
+                    <Image src={worm} className={cls(styles.wormImage, 'img-fluid')} alt='Worm-Mingles' width={130} height={130} />
                 </div>
             </div>
             

@@ -11,6 +11,10 @@
   text-align: center;
 }
 
+.xesus {
+    font-size: 4.4vw;
+}
+
 .image {
     width: 100%;
     height: auto;
@@ -92,6 +96,11 @@
     line-height: normal;
 }
 
+.wormImage {
+    width: 100px;
+    height: auto;
+}
+
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
   .card:hover {
@@ -118,20 +127,20 @@
   }
 
   .tequila {
-      font-size: 4vw;
+      font-size: 3.5vw;
   }
 
   .text1 {
-      font-size: 2.8vw;
+      font-size: 2.1vw;
       width: 70%;
   }
 
   .textBox1 {
-      font-size: 3.5vw;
+      font-size: 2.5vw;
   }
 
   .textBox2 {
-      font-size: 2.5vw;
+      font-size: 2.1vw;
   }
 
   .artist1 {
@@ -146,14 +155,18 @@
       font-size: 2.5vw;
   }
   
+  .wormImage {
+    width: 200px;
+    height: auto;
+}
 
 }
 
 /* pantalla grande */
 @media (min-width: 1121px) {
   .box {
-    width: 75%;
-    padding: 0px;
+    width: 65%;
+    padding: 10px;
   }
 
   .tequila {
