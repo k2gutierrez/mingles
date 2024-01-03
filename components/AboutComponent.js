@@ -28,10 +28,10 @@ function AboutComponent() {
                     <Image src={mingles} className={cls(styles.mi, 'img-fluid')} alt='About-Mingles' width={400.982} height={130.723} />
                 </div>
                 <div className={cls(styles.caja, 'row text-center justify-content-center')}>
-                    <p className={cls(fontQuirky.className, styles.tequila, 'mb-2')}>
+                    <p className={cls(fontQuirky.className, styles.tequila, 'mb-1')}>
                         Tequila meets web3
                     </p>
-                    <p className={cls(fontAgrandir.className, styles.text1, 'mb-1 p-4')}>
+                    <p className={cls(fontAgrandir.className, styles.text1, 'p-4')}>
                         Centered around our unique 
                         Tequila Worms - the Mingles. 
                         It's a digital collectible project of 
@@ -40,12 +40,12 @@ function AboutComponent() {
                     </p>
                 </div>
                 <div className=''> {/**d-flex flex-column  justify-content-center align-items-center */}
-                <div className={cls('row text-center justify-content-center mb-1')}>
+                <div className={cls('row text-center justify-content-center')}>
             
                 <p className={cls(fontAgrandir.className, styles.textBox2, styles.box)}>
-                    <p className={cls(fontQuirky.className, styles.textBox1)}>
+                    <span className={cls(fontQuirky.className, styles.textBox1, 'mb-5')}>
                         Exclusive NFTs
-                    </p>
+                    </span> <br/>
                     Our NFTs offer more than ownership; 
                     they're a gateway to a world of privileges, 
                     community engagement, and unique 
@@ -54,12 +54,12 @@ function AboutComponent() {
                 </p>
                 </div>
 
-                <div className={cls('row text-center justify-content-center mb-1')}>
+                <div className={cls('row text-center justify-content-center')}>
                     
                     <p className={cls(fontAgrandir.className, styles.textBox2, styles.box)}>
-                        <p className={cls(fontQuirky.className, styles.textBox1)}>
+                        <span className={cls(fontQuirky.className, styles.textBox1)}>
                             Vibrant Community
-                        </p>
+                        </span> <br/>
                         We bring together anime fans, crypto 
                         enthusiasts , and tequila lovers in a space 
                         that celebrates digital 
@@ -67,13 +67,13 @@ function AboutComponent() {
                     </p>
                 </div>
 
-                <div className={cls('row text-center justify-content-center mb-5')}>
+                <div className={cls('row text-center justify-content-center')}>
                     
                     <p className={cls(fontAgrandir.className, styles.textBox2, styles.box)}>
-                        <p className={cls(fontQuirky.className, styles.textBox1)}>
+                        <span className={cls(fontQuirky.className, styles.textBox1)}>
                             Sustainable 
                             Business Model
-                        </p>
+                        </span> <br/>
                         We combine NFT sales with a real-world <br />
                         Tequila Distillery, ensuring a sustainable <br />
                         and community-focused <br />
