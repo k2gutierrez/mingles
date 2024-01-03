@@ -4,16 +4,18 @@
 }
 
 .text1 {
+    text-align: justify;
     color: #FFF;
-    font-size: 32px;
+    font-size: 3vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
 .text2 {
+    text-align: justify;
     color: #FFF;
-    font-size: 13.811px;
+    font-size: 2vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal; 
@@ -21,7 +23,7 @@
 
 .text3 {
     color: #FFF;
-    font-size: 15.404px;
+    font-size: 1.5vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal; 
@@ -29,20 +31,58 @@
 
 .WormCircle {
     border-radius: 50%;
+    height: auto;
+    width: 140px;
 }
 
-/* Mobile */
-@media (max-width: 700px) {   
+/* LG Screen */
+@media (min-width: 1121px) {   
     .text1 {
-        font-size: 18px;
+        font-size: 2.2vw;
     }
-    
+
+    .text2 {
+        font-size: 1.1vw;
+    }
+
+    .text3 {
+        font-size: 1vw;
+    }
+
+    .caja {
+        margin-left: 9vw;
+        margin-right: 9vw;
+    }
+
+    .WormCircle {
+        height: auto;
+        width: 200px;
+    }
+
 }
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
     .text1 {
-        font-size: 26px;
+        font-size: 2.5vw;
+    }
+
+    .text2 {
+        font-size: 1.3vw;
+    }
+
+    .text3 {
+        font-size: 1vw;
+    }
+
+    .caja {
+        margin-left: 4vw;
+        margin-right: 4vw;
+    }
+
+    .WormCircle {
+        height: auto;
+        width: 160px;
     }
     
 }

@@ -7,7 +7,7 @@ import localFont from 'next/font/local'
 import mingles from '../public/assets/Logo/minglesLogoBlanco.png'
 
 const fontQuirky = localFont({ 
-    src: '../public/fonts/quirky/QuirkySunflower.otf'
+    src: '../public/fonts/quirky/QuirkySunflower.otf' 
 } )
 
 const fontAgrandir = localFont({

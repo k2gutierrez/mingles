@@ -39,7 +39,7 @@
 }
 
 .mingles {
-    margin-bottom: -10vw;    
+    margin-bottom: -5vh;    
 }
 
 .box {
@@ -71,6 +71,11 @@
     .mingles {
         margin-bottom: -5vh;    
     }
+
+    .imagen {
+        height: auto;
+        width: 400px;
+    }
  
 }
 
@@ -92,5 +97,10 @@
 
     .mingles {
         margin-bottom: -6vh;    
+    }
+
+    .imagen {
+        height: auto;
+        width: 350px;
     }
 }
