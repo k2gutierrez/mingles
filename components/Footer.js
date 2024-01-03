@@ -20,25 +20,28 @@ const fontAgrandir = localFont({
 function Footer() {
   return (
 
-    <div className='container-sm p-3'>
-      <div className='row d-flex align-items-center'>
+    <div className={cls(styles.cont, 'align-items-center justify-content-center p-3')}>
+      <div className='row align-items-center text-center justify-content-center'>
         <div className='col-9'>
-          <div className=' gap-3 d-flex flex-column flex-sm-row justify-content-center align-items-center'>
+          <div className='d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3'>
 
-              <Link href={'/'}><Image src={logo} className='img-fluid' alt='Mingles' width={292.48} height={66.853} ></Image></Link>
-
+              <Link href={'/'}><Image src={logo} className='img-fluid' alt='Mingles' width={240} height={66.853} ></Image></Link>
 
               <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark")}>Download Manifesto</button>
 
 
-              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark")}>Join Mingles</button>
+              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark me-sm-auto")}>Join Mingles</button>
+
+              <Link href="https://twitter.com/MinglesNFT"> <Image className='img-fluid' src={twitter} alt='mingle-twitter' width={61.281} height={61.281} ></Image> </Link>
+              <Link href="#"> <Image className='img-fluid' src={telegram} alt='mingle-telegram' width={61.281} height={61.281} ></Image> </Link>
+
+              <div className=''>
+                
+              </div>
 
           </div>
         </div>
-        <div className='col-3 text-end'>
-          <Link href="https://twitter.com/MinglesNFT"> <Image className='img-fluid m-1' src={twitter} alt='mingle-twitter' width={61.281} height={61.281} ></Image> </Link>
-          <Link href="#"> <Image className='img-fluid m-1' src={telegram} alt='mingle-telegram' width={61.281} height={61.281} ></Image> </Link>
-        </div>
+        
       </div>
     </div>
   );

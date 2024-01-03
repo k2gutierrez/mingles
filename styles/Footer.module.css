@@ -8,10 +8,14 @@
 
 .buttons {
     color: #000;
-    font-size: 31.172px;
+    font-size: 40px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.cont {
+    border-style: solid;
 }
 
 /* Mobile */
@@ -22,8 +26,7 @@
     }
 
     .buttons {
-        font-size: 24px;
-        margin-bottom: 40px;
+        width: 90%;
     }
  
 }
@@ -38,5 +41,6 @@
     
     .buttons {
         font-size: 28px;
+        width: auto;
     }
 }

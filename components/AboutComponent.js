@@ -5,7 +5,7 @@ import cls from 'classnames'
 import fondo1 from '../public/assets/fondos/fondoNoche.png'
 import mingles from '../public/assets/Logo/minglesLogoBlanco.png'
 import worm from '../public/assets/wormCompleto.png'
-import artist from '../public/assets/personajes/c7.png'
+import artist from '../public/assets/personajes/c7a.png'
 import Image from 'next/image'
 import localFont from 'next/font/local'
 
@@ -19,7 +19,7 @@ const fontAgrandir = localFont({
 
 function AboutComponent() {
   return (
-    <div className=''>
+    <div>
     
         <main className={cls(styles.contenido)}>
             {/*<Image src={fondo1} className={cls(styles.image, 'img-fluid')} alt='About-Mingles' width={1364.009} height={1470.572} />*/}
@@ -84,7 +84,7 @@ function AboutComponent() {
             </div>
         </main>
         <div className={cls(styles.artistB, 'row text-center justify-content-center p-5')}>
-            <div className={cls('d-flex flex-column flex-sm-row justify-content-center align-items-center gap-5')}>
+            <div className={cls('d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3')}>
                 <Image src={artist} className={cls('img-fluid')} alt='Worm-Mingles' width={289} height={289} />
                 <p className={cls(fontAgrandir.className, styles.artist2, 'text-start')}>
                     <p className={cls(fontQuirky.className, styles.artist1)}>Meet the Artist</p>
@@ -96,8 +96,8 @@ function AboutComponent() {
                 </p>
             </div>
         </div>
-        <div className={cls(styles.wormB, 'row text-center align-items-center justify-content-center mb-5 p-5')}>
-            <div className={cls('d-flex flex-column flex-sm-row justify-content-center align-items-center gap-5')}>
+        <div className={cls(styles.wormB, 'row text-center align-items-center justify-content-center p-5')}>
+            <div className={cls('d-flex flex-column flex-sm-row justify-content-center align-items-center')}>
                 <p className={cls(fontAgrandir.className, styles.wormText)}>
                     Join us at the crossroads of tequila <br />
                     tradition and digital innovation, and <br />
