@@ -1,0 +1,30 @@
+.na {
+    background-color: rgba(255, 255, 255, 0.521);
+}
+
+/* Mobile */
+@media (max-width: 700px) {   
+
+    .text1 {
+        font-size: 25px;
+    }
+
+    .buttons {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+ 
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+
+
+    .text1 {
+        font-size: 40px;
+    }
+    
+    .buttons {
+        font-size: 28px;
+    }
+}

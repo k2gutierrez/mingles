@@ -28,7 +28,7 @@ function Footer() {
               <Link href={'/'}><Image src={logo} className='img-fluid' alt='Mingles' width={292.48} height={66.853} ></Image></Link>
 
 
-              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark")}>Download PDF</button>
+              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark")}>Download Manifesto</button>
 
 
               <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-outline-dark")}>Join Mingles</button>
@@ -36,7 +36,7 @@ function Footer() {
           </div>
         </div>
         <div className='col-3 text-end'>
-          <Link href="#"> <Image className='img-fluid m-1' src={twitter} alt='mingle-twitter' width={61.281} height={61.281} ></Image> </Link>
+          <Link href="https://twitter.com/MinglesNFT"> <Image className='img-fluid m-1' src={twitter} alt='mingle-twitter' width={61.281} height={61.281} ></Image> </Link>
           <Link href="#"> <Image className='img-fluid m-1' src={telegram} alt='mingle-telegram' width={61.281} height={61.281} ></Image> </Link>
         </div>
       </div>

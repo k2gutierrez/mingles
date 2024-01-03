@@ -29,7 +29,7 @@ function Contenido1Landing() {
                         <p className={styles.quirk}>Let&apos;s buy a <br/> tequila distillery <br/> together!</p>
                     </div>
                     <div className='mt-4'>
-                        <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light me-1")} >Download PDF</button>
+                        <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light me-1")} >Download Manifesto</button>
                         <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light ms-1")} >Join Mingles</button>
                     </div>
                 </div>

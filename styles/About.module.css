@@ -1,21 +1,16 @@
-.fondo {
-    position: relative;
-  }
   
-  .contenido {
-    position: absolute;
-    top: 3%;
-    width: 100%;
-    height: 65%;
-    text-align: center;
-  }
-
-  .mi {
-    width: 35vw;
-  }
+.contenido {
+  margin-top: 8.5vh ;
+  align-items: start;
+  justify-content: center;
+  background: url(../public/assets/fondos/fondoNoche.png);  
+  background-size: cover;
+  background-position:center;  
   
-.mainContainer {
-    margin-top: 4%;
+  top: 3%;
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
 }
 
 .image {
@@ -28,21 +23,23 @@
     border-radius: 40px;
     border-style: solid;
     border-color: black;
-    width: auto;
+    width: 75%;
     padding: 15px;
 }
 
 .tequila {
     color: #FFFDEF;;
-    font-size: 3.2vw;
+    font-size: 5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 1px;
 }
 
 .text1 {
     color: #FFF;
-    font-size: 1.3vw;
+    font-size: 3.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -50,7 +47,7 @@
 
 .textBox1 {
     color: #000;
-    font-size: 3vw;
+    font-size: 5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -58,7 +55,7 @@
 
 .textBox2 {
     color: #000;
-    font-size: 1.5vw;
+    font-size: 3.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -74,7 +71,7 @@
 
 .artist1 {
     color: #FFFDEF;
-    font-size: 3.2vw;
+    font-size: 5.5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -82,7 +79,7 @@
 
 .artist2 {
     color: #FFF;
-    font-size: 1.2vw;
+    font-size: 4vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -90,41 +87,107 @@
 
 .wormText {
     color: #FFF;
-    font-size: 1.5vw;
+    font-size: 4vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
 
-  /* Enable hover only on non-touch devices */
-  @media (hover: hover) and (pointer: fine) {
-    .card:hover {
-      background: rgba(var(--card-rgb), 0.1);
-      border: 1px solid rgba(var(--card-border-rgb), 0.15);
-    }
-  
-    .card:hover span {
-      transform: translateX(4px);
-    }
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    background: rgba(var(--card-rgb), 0.1);
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  }
+
+  .card:hover span {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .card:hover span {
+    transform: none;
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .box {
+    width: 70%;
+    padding: 10px;
+  }
+
+  .tequila {
+      font-size: 4vw;
+  }
+
+  .text1 {
+      font-size: 2.8vw;
+  }
+
+  .textBox1 {
+      font-size: 3.5vw;
+  }
+
+  .textBox2 {
+      font-size: 2.5vw;
+  }
+
+  .artist1 {
+      font-size: 3.5vw;
+  }
+
+  .artist2 {
+      font-size: 2.5vw;
+  }
+
+  .wormText {
+      font-size: 2.5vw;
   }
   
-  @media (prefers-reduced-motion) {
-    .card:hover span {
-      transform: none;
-    }
+
+}
+
+/* pantalla grande */
+@media (min-width: 1121px) {
+  .box {
+    width: 75%;
+    padding: 0px;
   }
-  
-  /* Mobile */
-  @media (max-width: 700px) {
-    
-  
-  
+
+  .tequila {
+      font-size: 2vw;
   }
-  
-  /* Tablet and Smaller Desktop */
-  @media (min-width: 701px) and (max-width: 1120px) {
-    
-    
-  
+
+  .text1 {
+      font-size: 1.2vw;
+      width: 60%;
+
   }
-  
+
+  .textBox1 {
+      font-size: 1.6vw;
+  }
+
+  .textBox2 {
+      font-size: 1vw;
+  }
+
+  .artist1 {
+      font-size: 3.5vw;
+  }
+
+  .artist2 {
+      font-size: 2.5vw;
+  }
+
+  .wormText {
+      font-size: 2.5vw;
+  }
+
+  .contenido {
+    margin-top: 9.5vh 
+  }
+
+}
