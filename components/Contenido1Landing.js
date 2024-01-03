@@ -21,7 +21,7 @@ function Contenido1Landing() {
   return (
     <main className={cls(styles.fondo, 'pt-5')}>
         <div className={cls(styles.contenido, 'row align-items-center px-4')}>
-            <div className='col-md-4 col-sm-6 col-12'>
+            <div className='col-md-4 col-6'>
                 <div className={cls(fontQuirky.className, styles.text1, styles.contorno, 'row')}>
                     <p className={styles.quirk}>Let&apos;s buy a <br/> tequila distillery <br/> together!</p>
                 </div>
@@ -30,10 +30,10 @@ function Contenido1Landing() {
                     <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Join Mingles</button>
                 </div>
             </div>
-            <div className='col-md-4 col-6'>
+            <div className='col-md-4 col-12 order-first'>
                 <Image className={cls(styles.wormImg, 'img-fluid')} src={WormCircle} alt='Mingle' width={350} height={350} />
             </div>
-            <div className='col-md-4 col-sm-12 col-6 pt-4'>
+            <div className='col-md-4 col-6'>
                 <div className='row'>
                     <p className={cls(fontQuirky.className, styles.nftproject, styles.contorno2)}>NFT PROJECT</p>
                     <p className={cls(fontAgrandir.className, styles.textNftProject)}>4,000 Mingles (Tequila <br/> Worms) on Ethereum</p>
