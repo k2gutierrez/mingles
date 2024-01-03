@@ -28,7 +28,7 @@ function AboutComponent() {
                     <Image src={mingles} className={cls(styles.mi, 'img-fluid')} alt='About-Mingles' width={400.982} height={130.723} />
                 </div>
                 <div className={cls(styles.caja, 'row text-center justify-content-center')}>
-                    <p className={cls(fontQuirky.className, styles.tequila, 'mb-1')}>
+                    <p className={cls(fontQuirky.className, styles.tequila, '')}>
                         Tequila meets web3
                     </p>
                     <p className={cls(fontAgrandir.className, styles.text1, 'p-4')}>
@@ -43,7 +43,7 @@ function AboutComponent() {
                 <div className={cls('row text-center justify-content-center')}>
             
                 <p className={cls(fontAgrandir.className, styles.textBox2, styles.box)}>
-                    <span className={cls(fontQuirky.className, styles.textBox1, 'mb-5')}>
+                    <span className={cls(fontQuirky.className, styles.textBox1, '')}>
                         Exclusive NFTs
                     </span> <br/>
                     Our NFTs offer more than ownership; 
@@ -86,7 +86,7 @@ function AboutComponent() {
         <div className={cls(styles.artistB, 'row text-center justify-content-center p-5')}>
             <div className={cls('d-flex flex-column flex-sm-row justify-content-center align-items-center gap-3')}>
                 <Image src={artist} className={cls('img-fluid')} alt='Worm-Mingles' width={289} height={289} />
-                <p className={cls(fontAgrandir.className, styles.artist2, 'text-start')}>
+                <p className={cls(fontAgrandir.className, styles.artist2, '')}>
                     <p className={cls(fontQuirky.className, styles.artist1)}>Meet the Artist</p>
                     Xesus Bobomb <br />
                     25-year-old-self-taught character artist from Tbilisi,
