@@ -19,8 +19,8 @@ const fontAgrandir = localFont({
 
 function Contenido1Landing() { 
   return (
-    <main className={cls(styles.fondo, 'row')}>
-        <div className={cls(styles.contenido, 'row align-items-center mt-5')}>
+    <main className={cls(styles.fondo, 'pt-5')}>
+        <div className={cls(styles.contenido, 'row align-items-center px-4')}>
             <div className='col-md-4 col-sm-6 col-12'>
                 <div className={cls(fontQuirky.className, styles.text1, styles.contorno, 'row')}>
                     <p className={styles.quirk}>Let&apos;s buy a <br/> tequila distillery <br/> together!</p>
@@ -41,7 +41,7 @@ function Contenido1Landing() {
                 <Slider />
             </div>
         </div>
-        <div className={cls('row')}>
+        <div className={cls('row px-4 pt-2')}>
             <p className={cls(fontQuirky.className, styles.forsaken, styles.contorno)}>The foresaken story of Tequila</p>
             <div className=''>
             <Image src={recurso} className='img-fluid' alt="y'all Mingle!" width={528} height={809.5} />
