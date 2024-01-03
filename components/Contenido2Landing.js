@@ -11,18 +11,17 @@ const fontQuirky = localFont({
 } )
 
 const fontAgrandir = localFont({
-    src: '../public/fonts/agrandir/Agrandir-Regular.otf'
+    src: '../public/fonts/agrandir/Agrandir-Regular.otf' 
 })
 
 function Contenido2Landing() {
   return (
-    <main className={cls(styles.fondo, 'row align-items-center')}>
-        <Image src={fondo1} className='img-fluid' alt='Join-Mingles' width={1462.78} height={538.77} />
-        <div className={cls(fontAgrandir.className, styles.contenido, 'row text-center justify-content-center')}>
-            <p className={cls(styles.text2, styles.box, '')}>
-                &quot;Rise of <span className={styles.text1}><b>Tequila</b>, </span> fall of the <b>Mingles.</b> <br/>
-                In agave fields, our cradle, Industry&apos;s shadow loomed, <br/>
-                threatening  our existence. We, the resilent few, now seek allies. <br/>
+    <main className={cls(styles.fondo, '')}>
+        <div className={cls(fontAgrandir.className, 'row text-center justify-content-center p-2')}>
+            <p className={cls(styles.text2, styles.box, 'mb-5')}>
+                &quot;Rise of <span className={styles.text1}><b>Tequila</b>, </span> fall of the <b>Mingles. </b> 
+                In agave fields, our cradle, Industry&apos;s shadow loomed, 
+                threatening  our existence. We, the resilent few, now seek allies. 
                 <span className={styles.text2}><b>Join</b> our epic revival.</span>&quot;
             </p>
         </div>
