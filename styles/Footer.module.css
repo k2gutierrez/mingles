@@ -14,9 +14,6 @@
     width: 80%;
 }
 
-.cont {
-    border-style: solid;
-}
 
 /* Mobile */
 @media (min-width: 1120px) {   
