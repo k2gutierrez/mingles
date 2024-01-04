@@ -1,9 +1,12 @@
 import React from 'react'
 import styles from './page.module.css'
+import RoadmapComponent from '../../../components/RoadmapComponent'
 
-function Roadmap() {
+function Roadmap() { 
   return (
-    <div>Roadmap</div>
+    <main>
+        <RoadmapComponent />
+    </main>
   )
 }
 
