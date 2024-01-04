@@ -1,14 +1,17 @@
-.fondo {
-    position: relative;
-}
-
 .contenido {
-    position: absolute;
-}
+    align-items: start;
+    justify-content: center;
+    background: url(../public/assets/rectangle4.png);  
+    background-size: cover;
+    background-position:center;  
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+  }
 
 .text1 {
     color: #FFFDEF;
-    font-size: 50px;
+    font-size: 9vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -16,7 +19,7 @@
 
 .buttons {
     color: #000;
-    font-size: 23.029px;
+    font-size: 4vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -24,34 +27,52 @@
 
 .contorno {
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: .3vw;
+}
+
+.n1 {
+    width: 110px;
+    height: auto;
+}
+
+.n2 {
+    width: 110px;
+    height: auto;
+}
+
+.n3 {
+    width: 110px;
+    height: auto;
 }
 
 /* Mobile */
-@media (max-width: 700px) {   
+@media (min-width: 1121px) {   
 
     .text1 {
-        font-size: 18px;
+        font-size: 5.5vw;
+    }
+
+    .contorno {
+        -webkit-text-stroke-width: .25vw;
     }
 
     .n1 {
-        width: 50px;
+        width: 250px;
         height: auto;
     }
 
     .n2 {
-        width: 50px;
+        width: 250px;
         height: auto;
     }
 
     .n3 {
-        width: 50px;
+        width: 250px;
         height: auto;
     }
     
     .buttons {
-        font-size: 12px;
-        margin-bottom: 40px;
+        font-size: 1.5vw;
     }
  
 }
@@ -61,25 +82,29 @@
 
 
     .text1 {
-        font-size: 38px;
+        font-size: 6.5vw;
+    }
+
+    .contorno {
+        -webkit-text-stroke-width: .25vw;
     }
 
     .n1 {
-        width: 110px;
+        width: 180px;
         height: auto;
     }
 
     .n2 {
-        width: 110px;
+        width: 180px;
         height: auto;
     }
 
     .n3 {
-        width: 110px;
+        width: 180px;
         height: auto;
     }
     
     .buttons {
-        font-size: 16px;
+        font-size: 2.5vw;
     }
 }

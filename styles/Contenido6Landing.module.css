@@ -1,79 +1,52 @@
-.fondo {
-    position: relative;
-}
 
 .contenido {
-    position: absolute;
-
-    width: 1000px;
-    height: 800px;
-    top: 15%;
-    left: 50%;
-    transform: translate(-50%, 0);
-}
-
-.cont {
-    position: absolute;
-    top: 13.5%;
-    transform: translate(40%, -100%);
-}
-
-.text1 {
-    color: #FFFDEF;
-    font-size: 50px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
+    align-items: start;
+    justify-content: center;
+    background: url(../public/assets/fondos/fondoLast.png);  
+    background-size: cover;
+    background-position:center;  
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
 }
 
 .our {
     color: #FFFDEF;
-    font-size: 77.995px;
+    font-size: 12vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
     -webkit-text-stroke-color: black;
-    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-width: .7vw;
+}
+
+.scroll {
+    width: 95%;
+    height: 80%;
 }
 
 /* Mobile */
-@media (max-width: 700px) {   
-    .text1 {
-        font-size: 18px;
+@media (min-width: 1121px) {   
+
+    .our {
+        font-size: 5vw;
+        -webkit-text-stroke-width: .25vw;
     }
 
-    .contenido {
-        width: 400px;
-        height: 200px;
-   }
-
-   .cont {
-    top: 22%;
-    transform: translate(35%, -100%);
-}
-
-.our {
-    font-size: 28px;
-}
+    .scroll {
+        height: 70%;
+    }
 }
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
-    .text1 {
-        font-size: 38px;
-    }
-
-    .contenido {
-         width: 550px;
-        height: 250px;
-    }
-
-    .cont {
-        top: 21%;
-        transform: translate(40%, -100%);
-    }
 
     .our {
-        font-size: 45px;
+        font-size: 6vw;
+        -webkit-text-stroke-width: .25vw;
+    }
+
+    .scroll {
+        height: 75%;
     }
 }

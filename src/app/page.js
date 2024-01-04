@@ -8,13 +8,13 @@ import Contenido6Landing from '../../components/Contenido6Landing'
 
 export default function Home() {
   return (
-    <main>
+    <>
       <Contenido1Landing />
       <Contenido2Landing />
       <Contenido3Landing />
       <Contenido4Landing />
       <Contenido5Landing />
       <Contenido6Landing />
-    </main>
+    </>
   )
 }

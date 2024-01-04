@@ -30,7 +30,7 @@ function Contenido1Landing() {
                     <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Join Mingles</button>
                 </div>
             </div>
-            <div className='col-md-4 col-12 order-first'>
+            <div className='col-md-4 col-12 sm-order-first'>
                 <Image className={cls(styles.wormImg, 'img-fluid')} src={WormCircle} alt='Mingle' width={350} height={350} />
             </div>
             <div className='col-md-4 col-6'>

@@ -5,7 +5,7 @@
 
 .text1 {
     color: #FFFDEF;
-    font-size: 57.651px;
+    font-size: 9vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -13,7 +13,7 @@
 
 .text2 {
     color: #FFF;
-    font-size: 18px;
+    font-size: 4vw;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
@@ -27,8 +27,17 @@
     line-height: normal;
 }
 
+.WormCircle {
+    width: 180px;
+    height: auto;
+}
+
+.buttons {
+    font-size: 4.5vw;
+}
+
 /* Mobile */
-@media (max-width: 700px) {   
+@media (min-width: 1121px) {    
 
 
     .text1 {
@@ -40,12 +49,12 @@
     }
 
     .WormCircle {
-        width: 150px;
+        width: 220px;
         height: auto;
     }
 
     .buttons {
-        font-size: 22px;
+        font-size: 1.6vw;
     }
     
 }
@@ -61,7 +70,7 @@
     }
 
     .buttons {
-        font-size: 32px;
+        font-size: 2vw;
     }
     
 }

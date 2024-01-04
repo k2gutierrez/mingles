@@ -81,12 +81,13 @@
 }
 
 .contorno2 {
-    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-width: .3vw;
     -webkit-text-stroke-color: white;
 }
 
+
 .contorno3 {
-    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-width: .2vw;
     -webkit-text-stroke-color: black;
 }
 

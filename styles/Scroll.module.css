@@ -6,7 +6,7 @@
 
 .text1 {
     color: #FFF;
-    font-size: 12.78px;
+    font-size: 2.7vw;
     font-style: normal;
     font-weight:800;
     line-height: normal;
@@ -14,7 +14,7 @@
 
 .text2 {
     color: #FFF;
-    font-size: 12.78px;
+    font-size: 2.7vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
@@ -22,33 +22,43 @@
 
 .titles {
     color: white;
-    font-size: 25px;
+    font-size: 5vw;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-width: .35vw;
     -webkit-text-stroke-color: black;
     margin-bottom: -1px;
 }
 
-/* Mobile */
-@media (max-width: 700px) {   
+/* LG Screen */
+@media (min-width: 1121px) {   
     .text1 {
-        font-size: 8px;
+        font-size: 1vw;
     }
 
     .text2 {
-        font-size: 8px;
+        font-size: 1vw;
+    }
+
+    .titles {
+        font-size: 2.2vw;
+        -webkit-text-stroke-width: .1vw;
     }
 }
 
 /* Tablet and Smaller Desktop */
 @media (min-width: 701px) and (max-width: 1120px) {
     .text1 {
-        font-size: 10px;
+        font-size: 1.5vw;
     }
 
     .text2 {
-        font-size: 10px;
+        font-size: 1.5vw;
+    }
+
+    .titles {
+        font-size: 2.7vw;
+        -webkit-text-stroke-width: .15vw;
     }
 }
