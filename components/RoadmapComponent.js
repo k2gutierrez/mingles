@@ -33,7 +33,7 @@ function RoadmapComponent() {
 
         <div className={cls(styles.scroll, 'overflow-auto row align-items-center justify-content-center text-center')}>
 
-            <div className='row align-items-center'>
+            <div className={cls(styles.posHere, 'row align-items-center')}>
                 <div className='col-7'>
                     <p className={cls(fontQuirky.className, styles.title)}>
                         Manifesto & 'Agave Chronicles' Launch
@@ -42,11 +42,11 @@ function RoadmapComponent() {
                         The journey begins. Experience the first chapter of our exclusive 'Agave Chronicles' as we unveil the Mingles world.
                     </p>
                 </div>
-                <div className={cls(styles.posHere, 'col-5 text-start')}>
+                <div className={cls('col-5 text-start')}>
                     <div className={cls(styles.here)}>
-                        <Image src={here} className={cls(styles.hereImg, 'img-fluid')} alt='Here' width={100} height={50} />
+                        <Image src={here} className={cls(styles.hereImg, '')} alt='Here' width={100} height={50} />
                     </div>
-                    <Image src={r1} className={cls(styles.imagenes, 'img-fluid')} alt='Manifesto' width={400} height={400} />
+                    <Image src={r1} className={cls(styles.imagenes, '')} alt='Manifesto' width={400} height={400} />
                 </div>
             </div>
 
