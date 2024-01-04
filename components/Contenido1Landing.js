@@ -19,30 +19,35 @@ const fontAgrandir = localFont({
 
 function Contenido1Landing() { 
   return (
-    <main className={cls(styles.fondo, 'pt-5')}>
-        <div className={cls(styles.contenido, 'row align-items-center px-4')}>
-            <div className='col-md-4 col-6'>
-                <div className={cls(fontQuirky.className, styles.text1, styles.contorno, 'row')}>
-                    <p className={styles.quirk}>Let&apos;s buy a <br/> tequila distillery <br/> together!</p>
-                </div>
-                <div className=''>
-                    <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Download Manifesto</button>
-                    <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Join Mingles</button>
+    <main className={cls(styles.fondo, 'pt-5 align-items-center')}>
+        <div className={cls(styles.contenido, 'row align-items-center justify-content-center px-4')}>
+            <div className='col-md-4 col-12 order-md-1 order-3'>
+                <div className='row align-items-center'>
+                    <div className={cls(fontQuirky.className, styles.text1, styles.contorno, 'col-md-12 col-6')}>
+                        <p className={styles.quirk}>Let&apos;s buy a <br/> tequila distillery <br/> together!</p> 
+                    </div>
+                    <div className='col-md-12 col-6'>
+                        <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Download Manifesto</button>
+                        <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Join Mingles</button>
+                    </div>
                 </div>
             </div>
-            <div className='col-md-4 col-12 sm-order-first'>
+            <div className='col-md-4 col-4 order-md-2 order-1'>
                 <Image className={cls(styles.wormImg, 'img-fluid')} src={WormCircle} alt='Mingle' width={350} height={350} />
             </div>
-            <div className='col-md-4 col-6'>
+            <div className='col-md-4 col-6 order-md-3 order-4 mb-md-0 mb-3'>
                 <div className='row'>
                     <p className={cls(fontQuirky.className, styles.nftproject, styles.contorno2)}>NFT PROJECT</p>
                     <p className={cls(fontAgrandir.className, styles.textNftProject)}>4,000 Mingles (Tequila <br/> Worms) on Ethereum</p>
                 </div>
                 <Slider />
             </div>
+            <div className='col-md-12 col-8 order-md-4 order-2 pt-md-0 pt-5'>
+                <p className={cls(fontQuirky.className, styles.forsaken, styles.contorno)}>The foresaken story of Tequila</p>
+            </div>
         </div>
         <div className={cls('row px-4 pt-2')}>
-            <p className={cls(fontQuirky.className, styles.forsaken, styles.contorno)}>The foresaken story of Tequila</p>
+            
             <div className=''>
             <Image src={recurso} className='img-fluid' alt="y'all Mingle!" width={528} height={809.5} />
             </div>

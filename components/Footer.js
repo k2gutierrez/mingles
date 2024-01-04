@@ -31,9 +31,16 @@ function Footer() {
 
 
               <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-sm btn-outline-dark me-sm-auto")}>Join Mingles</button>
-
-              <Link href="https://twitter.com/MinglesNFT"> <Image className='img-fluid' src={twitter} alt='mingle-twitter' width={61.281} height={61.281} ></Image> </Link>
-              <Link href="#"> <Image className='img-fluid' src={telegram} alt='mingle-telegram' width={61.281} height={61.281} ></Image> </Link>
+              <div className='row'>
+              <div className='col-6'>
+                <Link href="https://twitter.com/MinglesNFT"> <Image className='img-fluid' src={twitter} alt='mingle-twitter' width={61.281} height={61.281} ></Image> </Link>
+              
+              </div>
+              <div className='col-6'>
+                <Link href="#"> <Image className='img-fluid' src={telegram} alt='mingle-telegram' width={61.281} height={61.281} ></Image> </Link>
+              </div>
+              </div>
+              
 
               <div className=''>
                 
