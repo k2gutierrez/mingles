@@ -16,13 +16,16 @@ const fontAgrandir = localFont({
 
 function Contenido6Landing() {
   return (
-    <main className={cls(styles.contenido, 'row text-center')}>
+    <main className={cls(styles.contenido, '')}>
         <div className={cls('')}>
           <p className={cls(fontQuirky.className, styles.our, 'mt-3')}>our Team</p> 
         </div>
+        <div className='row text-center align-items-center justify-content-center'>
         <div className={cls(styles.scroll, 'overflow-auto row text-center')}>
             <Scroll /> 
         </div>
+        </div>
+        
     </main>
   )
 }
