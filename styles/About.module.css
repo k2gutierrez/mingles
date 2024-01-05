@@ -124,6 +124,7 @@
   .box {
     width: 70%;
     padding: 10px;
+    border-radius: 25px;
   }
 
   .tequila {
@@ -131,24 +132,39 @@
   }
 
   .text1 {
-      font-size: 2.1vw;
+      font-size: 2vw;
       width: 70%;
   }
 
   .textBox1 {
-      font-size: 2.5vw;
+        font-size: 1.5vw;
   }
 
   .textBox2 {
-      font-size: 2.1vw;
+      font-size: 1.3vw;
+  }
+
+  .boxes {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .xesus {
+    font-size: 3vw;
+  }
+
+  .bobomb {
+    width: 200px;
+    height: auto;
   }
 
   .artist1 {
-      font-size: 3.5vw;
+      font-size: 3.3vw;
   }
 
   .artist2 {
-      font-size: 2.5vw;
+      font-size: 2vw;
+      width: 50%;
   }
 
   .wormText {
@@ -167,6 +183,7 @@
   .box {
     width: 65%;
     padding: 10px;
+    border-radius: 20px;
   }
 
   .tequila {
@@ -174,25 +191,26 @@
   }
 
   .text1 {
-      font-size: 1.2vw;
-      width: 80%;
+      font-size: 1.4vw;
+      width: 45%;
 
   }
 
   .textBox1 {
-      font-size: 1.6vw;
+      font-size: 1.4vw;
   }
 
   .textBox2 {
-      font-size: 1vw;
+      font-size: .8vw;
   }
 
   .artist1 {
-      font-size: 3.5vw;
+      font-size: 2.5vw;
   }
 
   .artist2 {
-      font-size: 2.5vw;
+      font-size: 1.5vw;
+      width: 40%;
   }
 
   .wormText {
@@ -201,6 +219,20 @@
 
   .contenido {
     margin-top: 9.5vh 
+  }
+
+  .boxes {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .xesus {
+    font-size: 1.8vw;
+  }
+
+  .bobomb {
+    width: 300px;
+    height: auto;
   }
 
 }

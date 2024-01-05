@@ -67,25 +67,6 @@ export default function Scroll() {
 
                             <div className='col-3'>
                                 <div className='row'>
-                                    <Image src={c3} className='img-fluid' alt="Don't miss out" width={122.23} height={122.23} />
-                                </div>
-                            </div>
-                            <div className='col-9 p-3'>
-                                <p className={cls(fontQuirky.className, styles.titles, 'text-start')}>IRENE ZAMBRANO</p>
-                                <div className={cls(styles.cont, 'text-start p-3')}>
-                                    <p className={cls(styles.text1)}>
-                                        Design and Brand Advisro for Mingles
-                                    </p>
-                                    <p className={cls(styles.text2)}>
-                                        Advertising and communications specialist with expertise in Web 3.0 design, branding, digital and fashion marketing. 
-                                        Specializes in responsive web design, UI/UX, and development, content creation, creative direction, and 
-                                        fashion styling.
-                                    </p>
-                                </div>
-                            </div>
-
-                            <div className='col-3'>
-                                <div className='row'>
                                     <Image src={c4} className='img-fluid' alt="Don't miss out" width={122.23} height={122.23} />
                                 </div>
                             </div>
@@ -101,6 +82,27 @@ export default function Scroll() {
                                     </p>
                                 </div>
                             </div>
+                            
+                            <div className='col-3'>
+                                <div className='row'>
+                                    <Image src={c3} className='img-fluid' alt="Don't miss out" width={122.23} height={122.23} />
+                                </div>
+                            </div>
+                            <div className='col-9 p-3'>
+                                <p className={cls(fontQuirky.className, styles.titles, 'text-start')}>IRENE ZAMBRANO</p>
+                                <div className={cls(styles.cont, 'text-start p-3')}>
+                                    <p className={cls(styles.text1)}>
+                                        Design and Brand Advisor for Mingles
+                                    </p>
+                                    <p className={cls(styles.text2)}>
+                                        Advertising and communications specialist with expertise in Web 3.0 design, branding, digital and fashion marketing. 
+                                        Specializes in responsive web design, UI/UX, and development, content creation, creative direction, and 
+                                        fashion styling.
+                                    </p>
+                                </div>
+                            </div>
+
+                            
 
                         </div>
                     </div>

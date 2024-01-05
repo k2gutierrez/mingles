@@ -25,11 +25,11 @@ const fontAgrandir = localFont({
 
 function RoadmapComponent() {
   return (
-    <div className={cls(styles.contenido, 'row align-items-center justify-content-center text-center')}>
+    <div className={cls(styles.contenido, 'row align-items-center justify-content-center text-center pt-1')}>
         
-        <Image src={mingle} className={cls(styles.mingle, 'img-fluid mt-4')} alt='Mingles' width={246} height={246} /> 
+        <Image src={mingle} className={cls(styles.mingle, 'img-fluid mb-0')} alt='Mingles' width={246} height={246} /> 
         
-        <p className={cls(fontQuirky.className, styles.roadmap, '')}>ROADMAP</p>
+        <p className={cls(fontQuirky.className, styles.roadmap, 'mb-0')}>ROADMAP</p>
 
         <div className={cls(styles.scroll, 'overflow-auto row align-items-center justify-content-center text-center')}>
 

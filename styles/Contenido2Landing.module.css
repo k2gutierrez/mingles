@@ -33,17 +33,14 @@
 .box {
     background-color: rgb(255, 255, 255);
     width: auto;
-    border-radius: 65px;
+    border-radius: 40px;
     border-style: solid;
     border-color: black;
+    padding: 10px;
 }
 
 .mingles {
     margin-bottom: -5vh;    
-}
-
-.box {
-    padding: 10px;
 }
 
 .imagen {
@@ -63,9 +60,10 @@
     }
 
     .box {
-        width: 70%;
-        margin: 25px;
+        width: 40%;
+        margin-top: 20px;
         padding: 10px;
+        border-radius: 25px;
     }
 
     .mingles {
@@ -90,9 +88,10 @@
     }
 
     .box {
-        width: 60%;
+        width: 50%;
         margin: 25px;
         padding: 10px;
+        border-radius: 25px;
     }
 
     .mingles {

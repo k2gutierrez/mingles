@@ -56,6 +56,10 @@
     .buttons {
         font-size: 1.6vw;
     }
+
+    .caja {
+        width: 40%;
+    }
     
 }
 
@@ -71,6 +75,10 @@
 
     .buttons {
         font-size: 2vw;
+    }
+
+    .caja {
+        width: 40%;
     }
     
 }

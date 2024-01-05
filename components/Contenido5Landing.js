@@ -16,23 +16,23 @@ const fontAgrandir = localFont({
 function Contenido5Landing() {
   return (
     <main className={cls(styles.fondo, 'text-center')}>
-        <div className='row align-items-center p-4'>
+        <div className={cls('row align-items-center p-5')}>
             <div className={cls(styles.manifesto, 'col-sm-6 col-12 text-sm-end my-3')}>
                 <Image src={manifesto} className={cls(styles.WormCircle, 'img-fluid me-3')} alt='Ninja-Mingles' width={246} height={246} /> 
             </div>
-            <div className='col-sm-6 col-12 my-3 text-center text-sm-start'>
+            <div className={cls(styles.caja, 'col-sm-6 col-12 my-3 text-center text-sm-start')}>
                 <p className={cls(fontQuirky.className, styles.text1, '')}>
                     JOiN OUR CAUSE
                 </p>
                 <p className={cls(fontAgrandir.className, styles.text2, 'mb-4')}>
-                    Join the Mingles Adventure! <br/>
-                    Read our Manifesto, delve into the tequila <br/>
-                    tales, and become part of our community. <br/>
-                    Get exclusive updates on our journey - all <br/>
+                    Join the Mingles Adventure! 
+                    Read our Manifesto, delve into the tequila 
+                    tales, and become part of our community. 
+                    Get exclusive updates on our journey - all 
                     starting with a click. Let&apos;s Mingle!
                 </p>
 
-                <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-2")} >Download PDF</button>       
+                <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-2")} >Download Manifesto</button>       
             </div>
         </div>
     </main>

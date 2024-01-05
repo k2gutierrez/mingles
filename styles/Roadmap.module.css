@@ -5,9 +5,8 @@
     justify-content: center;
     background: url(../public/assets/fondos/roadmap.png);  
     background-size: cover;
-    background-position:center;  
-    width: 100vw;
-    height: 100vh;
+    background-position: top;  
+    height: 900px;
     text-align: center;
 }
 
@@ -45,27 +44,27 @@
 
 .posHere {
     position: relative;
-    border-style: solid;
 }
 
 .here {
     position: absolute;
     top: 0%;
-    left: 90%;
+    left: 85%;
 }
 
 .hereImg {
-    width: 90px;
+    width: 60px;
     height: auto;
 }
 
 .scroll {
-    height: 60%;
-    width: 95%;
+    height: 75%;
+    width: 85%;
+    margin-bottom: 40px;
 }
 
 .imagenes {
-    width: 40vw;
+    width: 35vw;
     height: auto;
 }
 
@@ -73,65 +72,21 @@
 @media (min-width: 701px) and (max-width: 1120px) {
   
     .roadmap {
-        font-size: 7vw;
+        font-size: 5.5vw;
         -webkit-text-stroke-width: .2vw;
     }
 
     .mingle {
-        width: 40vw;
+        width: 35vw;
     }
 
     .text {
-        font-size: 2.5vw;
+        font-size: 2vw;
     }
     
     .title {
-        font-size: 4.5vw;
+        font-size: 4vw;
         -webkit-text-stroke-width: .1vw;
-    }
-
-    .imagenes {
-        width: 30vw;
-        height: auto;
-    }
-
-    .hereImg {
-        width: 120px;
-        height: auto;
-    }
-
-    .here {
-        position: absolute;
-        top: 0%;
-        left: 85%;
-    }
-
-}
-
-/* pantalla grande */
-@media (min-width: 1121px) {
-  
-    .roadmap {
-        font-size: 5vw;
-        -webkit-text-stroke-width: .15vw;
-    }
-
-    .mingle {
-        width: 30vw;
-    }
-
-    .text {
-        font-size: 1.8vw;
-    }
-    
-    .title {
-        font-size: 3vw;
-        -webkit-text-stroke-width: .1vw;
-    }
-
-    .scroll {
-        height: 50%;
-        width: 80%;
     }
 
     .imagenes {
@@ -140,14 +95,67 @@
     }
 
     .hereImg {
-        width: 140px;
+        width: 100px;
         height: auto;
     }
 
     .here {
         position: absolute;
         top: 0%;
-        left: 90%;
+        left: 82%;
+    }
+
+    .contenido {
+        height: 900px;
+    }
+
+}
+
+/* pantalla grande */
+@media (min-width: 1121px) {
+  
+    .roadmap {
+        font-size: 4vw;
+        -webkit-text-stroke-width: .15vw;
+        
+    }
+
+    .mingle {
+        width: 25vw;
+    }
+
+    .text {
+        font-size: 1.2vw;
+    }
+    
+    .title {
+        font-size: 2.2vw;
+        -webkit-text-stroke-width: .1vw;
+    }
+
+    .scroll {
+        height: 70%;
+        width: 55%;
+    }
+
+    .imagenes {
+        width: 12vw;
+        height: auto;
+    }
+
+    .hereImg {
+        width: 100px;
+        height: auto;
+    }
+
+    .here {
+        position: absolute;
+        top: 0%;
+        left: 78%;
+    }
+
+    .contenido {
+        height: 1500px;
     }
 
 }
