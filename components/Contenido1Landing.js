@@ -1,3 +1,4 @@
+'use client'
 import React from 'react'
 import styles from '../styles/Contenido1Landing.module.css'
 import cls from 'classnames'
@@ -17,7 +18,11 @@ const fontAgrandir = localFont({
     src: '../public/fonts/agrandir/Agrandir-Regular.otf'
 })
 
+
 function Contenido1Landing() { 
+
+
+
   return (
     <main className={cls(styles.fondo, 'pt-5 align-items-center')}>
         <div className={cls(styles.contenido, 'row align-items-center justify-content-center px-4')}>
@@ -26,9 +31,13 @@ function Contenido1Landing() {
                     <div className={cls(fontQuirky.className, styles.text1, styles.contorno, 'col-md-12 col-6')}>
                         <p className={styles.quirk}>Let&apos;s buy a <br/> tequila distillery <br/> together!</p> 
                     </div>
-                    <div className='col-md-12 col-6'>
+                    <div className={cls('col-md-12 col-6')}>
+                        <Image src=''  className={styles.myButton2} width={150} height={50} alt='Join-Mingles' />
+                        <Image src=''  className={styles.myButton1} width={150} height={50} alt='Join-Mingles' />
+                        {/*
                         <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Download Manifesto</button>
                         <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Join Mingles</button>
+                        */}
                     </div>
                 </div>
             </div>

@@ -32,7 +32,7 @@ function Contenido5Landing() {
                     starting with a click. Let&apos;s Mingle!
                 </p>
 
-                <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-2")} >Download Manifesto</button>       
+                <Image src=''  className={styles.buttons} width={250} height={80} alt='Terms and Conditions' />       
             </div>
         </div>
     </main>

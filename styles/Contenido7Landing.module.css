@@ -1,0 +1,45 @@
+
+.contenido {
+    align-items: center;
+    justify-content: center;
+    background: url(../public/assets/fondos/minglesbg1.jpeg);  
+    background-size: cover;
+    background-position:center;  
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+}
+
+.myButton{
+    cursor:pointer;
+    content: url(../public/assets/buttons/termsconditions_up-01.png);
+    width: 40vw;
+    height: auto;
+    margin-top: 5vh;
+}
+
+.myButton:hover {   
+    content: url(../public/assets/buttons/termsconditions_down-01.png);
+}
+
+.myButton:active {   
+    content: url(../public/assets/buttons/termsconditions_down-01.png);
+}
+
+/* LG Screen */
+@media (min-width: 1121px) {   
+    .myButton{
+        width: 15vw;
+        height: auto;
+        margin-top: 50vh;
+    }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+    .myButton{
+        width: 20vw;
+        height: auto;
+        margin-top: 50vh;
+    }
+}

@@ -9,6 +9,39 @@
     text-align: center;
 }
 
+.myButton1{
+    cursor:pointer;
+    content: url(../public/assets/buttons/JOIN_MINGLES_buttonUP.png);
+    width: 30vw;
+    height: 100%;
+
+}
+
+.myButton1:hover {   
+    content: url(../public/assets/buttons/JOIN_MINGLES_buttondown.png);
+}
+
+.myButton1:active {   
+    content: url(../public/assets/buttons/JOIN_MINGLES_buttondown.png);
+}
+
+.myButton2{
+    cursor:pointer;
+    content: url(../public/assets/buttons/Manifesto_Download_buttonUp.png);
+    width: 30vw;
+    height: 100%;
+
+}
+
+.myButton2:hover {   
+    content: url(../public/assets/buttons/Manifesto_Download_buttonDown.png);
+}
+
+.myButton2:active {   
+    content: url(../public/assets/buttons/Manifesto_Download_buttonDown.png);
+}
+
+
 .text1 {
     font-style: normal;
     font-weight: 400;
@@ -135,6 +168,16 @@
         -webkit-text-stroke-width: .15vw;
         -webkit-text-stroke-color: black;
     }
+
+    .myButton1 {
+        width: 10vw;
+        height: auto;
+    }
+
+    .myButton2 {
+        width: 10vw;
+        height: auto;
+    }
  
 }
 
@@ -180,5 +223,15 @@
     .contorno {
         -webkit-text-stroke-width: .2vw;
         -webkit-text-stroke-color: black;
+    }
+
+    .myButton1 {
+        width: 15vw;
+        height: auto;
+    }
+
+    .myButton2 {
+        width: 15vw;
+        height: auto;
     }
 }

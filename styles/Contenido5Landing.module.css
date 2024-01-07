@@ -19,12 +19,20 @@
     line-height: normal;
 }
 
-.buttons {
-    color: #000;
-    font-size: 44.181px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+.buttons{
+    cursor:pointer;
+    content: url(../public/assets/buttons/Manifesto_Download_buttonUp.png);
+    width: 40vw;
+    height: auto;
+    margin-top: 5vh;
+}
+
+.buttons:hover {   
+    content: url(../public/assets/buttons/Manifesto_Download_buttonDown.png);
+}
+
+.buttons:active {   
+    content: url(../public/assets/buttons/Manifesto_Download_buttonDown.png);
 }
 
 .WormCircle {
@@ -54,7 +62,8 @@
     }
 
     .buttons {
-        font-size: 1.6vw;
+        width: 15vw;
+        height: auto;
     }
 
     .caja {
@@ -74,7 +83,8 @@
     }
 
     .buttons {
-        font-size: 2vw;
+        width: 15vw;
+        height: auto;
     }
 
     .caja {

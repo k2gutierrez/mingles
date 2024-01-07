@@ -33,8 +33,8 @@ function Contenido4Landing() {
         <div className='col-sm-4 col-12'>
             <Image src={n3} className={cls(styles.n3, 'img-fluid p-1')} alt="3" width={355} height={488} />
         </div>
-        <div className='p-2'>
-            <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-sm btn-light")} >Join Mingles</button>
+        <div className=''>
+            <Image src=''  className={styles.buttons} width={250} height={80} alt='Terms and Conditions' />
         </div>
         
     </main>

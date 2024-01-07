@@ -1,0 +1,45 @@
+.content {
+    background: black;
+}
+
+.p {
+    color: white;
+}
+
+.title {
+    font-size: 4.5vw;
+}
+
+.text {
+    font-size: 3.2vw;
+}
+
+/* LG Screen */
+@media (min-width: 1121px) {
+    .title {
+        font-size: 2vw;
+    }
+    
+    .text {
+        font-size: 1.3vw;
+    }
+
+    .caja {
+        width: 60%;
+    }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+    .title {
+        font-size: 3vw;
+    }
+    
+    .text {
+        font-size: 2vw;
+    }
+
+    .caja {
+        width: 80%;
+    }
+}
