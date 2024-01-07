@@ -32,7 +32,7 @@ function Contenido5Landing() {
                     starting with a click. Let&apos;s Mingle!
                 </p>
 
-                <Image src=''  className={styles.buttons} width={250} height={80} alt='Terms and Conditions' />       
+                <Image src=''  className={cls(styles.buttons, 'img-fluid')} width={250} height={80} alt='Download Manifesto' />       
             </div>
         </div>
     </main>

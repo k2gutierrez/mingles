@@ -33,9 +33,9 @@ function Contenido1Landing() {
                         <p className={styles.quirk}>Let&apos;s buy a <br/> tequila distillery <br/> together!</p> 
                     </div>
                     <div className={cls('col-md-12 col-6')}>
-                        <Image src=''  className={styles.myButton2} width={150} height={50} alt='Download Manifesto' />
+                        <Image src=''  className={cls(styles.myButton2, 'img-fluid')} width={150} height={50} alt='Download Manifesto' />
                         <Link href='https://t.me/+GSt8l8YvobYxMmFh'>
-                            <Image src=''  className={styles.myButton1} width={150} height={50} alt='Join-Mingles' />
+                            <Image src=''  className={cls(styles.myButton1, 'img-fluid')} width={150} height={50} alt='Join-Mingles' />
                         </Link>
                         {/*
                         <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Download Manifesto</button>

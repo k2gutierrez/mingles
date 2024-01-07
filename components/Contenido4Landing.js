@@ -35,7 +35,7 @@ function Contenido4Landing() {
             <Image src={n3} className={cls(styles.n3, 'img-fluid p-1')} alt="3" width={355} height={488} />
         </div>
         <div className=''>
-            <Link href='https://t.me/+GSt8l8YvobYxMmFh'><Image src=''  className={styles.buttons} width={250} height={80} alt='Join Mingles' /></Link>
+            <Link href='https://t.me/+GSt8l8YvobYxMmFh'><Image src=''  className={cls(styles.buttons, 'img-fluid')} width={250} height={80} alt='Join Mingles' /></Link>
         </div>
         
     </main>
