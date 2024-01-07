@@ -8,6 +8,7 @@ import cls from 'classnames'
 import localFont from 'next/font/local'
 import Link from 'next/link';
 import logo from '../public/assets/Logo/Mingles_Logo_Color_Mesa_de_trabajo_1.png'
+import { useRouter } from 'next/navigation';
 
 const fontQuirky = localFont({ 
   src: '../public/fonts/quirky/QuirkySunflower.otf'
@@ -18,6 +19,9 @@ const fontAgrandir = localFont({
 })
 
 function Footer() {
+
+  const router = useRouter()
+
   return (
 
     <div className={cls(styles.cont, 'align-items-center justify-content-center p-3')}>
@@ -29,15 +33,14 @@ function Footer() {
 
               <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-sm btn-outline-dark")}>Download Manifesto</button>
 
-
-              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-sm btn-outline-dark me-sm-auto")}>Join Mingles</button>
+              <button onClick={() => router.push('https://t.me/+GSt8l8YvobYxMmFh')} type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-sm btn-outline-dark me-sm-auto")}>Join Mingles</button>
               <div className='row'>
               <div className='col-6'>
                 <Link href="https://twitter.com/MinglesNFT"> <Image className='img-fluid' src={twitter} alt='mingle-twitter' width={61.281} height={61.281} ></Image> </Link>
               
               </div>
               <div className='col-6'>
-                <Link href="#"> <Image className='img-fluid' src={telegram} alt='mingle-telegram' width={61.281} height={61.281} ></Image> </Link>
+                <Link href="https://t.me/+GSt8l8YvobYxMmFh"> <Image className='img-fluid' src={telegram} alt='mingle-telegram' width={61.281} height={61.281} ></Image> </Link>
               </div>
               </div>
               

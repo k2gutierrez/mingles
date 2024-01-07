@@ -9,6 +9,7 @@ import WormCircle from '../public/assets/Logo/MingleToRound.png'
 import recurso from '../public/assets/recurso14.png'
 import localFont from 'next/font/local'
 import Slider from './Slider'
+import Link from 'next/link'
 
 const fontQuirky = localFont({ 
     src: '../public/fonts/quirky/QuirkySunflower.otf'
@@ -32,8 +33,10 @@ function Contenido1Landing() {
                         <p className={styles.quirk}>Let&apos;s buy a <br/> tequila distillery <br/> together!</p> 
                     </div>
                     <div className={cls('col-md-12 col-6')}>
-                        <Image src=''  className={styles.myButton2} width={150} height={50} alt='Join-Mingles' />
-                        <Image src=''  className={styles.myButton1} width={150} height={50} alt='Join-Mingles' />
+                        <Image src=''  className={styles.myButton2} width={150} height={50} alt='Download Manifesto' />
+                        <Link href='https://t.me/+GSt8l8YvobYxMmFh'>
+                            <Image src=''  className={styles.myButton1} width={150} height={50} alt='Join-Mingles' />
+                        </Link>
                         {/*
                         <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Download Manifesto</button>
                         <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Join Mingles</button>

@@ -24,7 +24,7 @@ function NavBar() {
             <Nav.Link href="/about">ABOUT</Nav.Link>
             <Nav.Link href="/roadmap">ROADMAP</Nav.Link>
             <Nav.Link href="https://twitter.com/MinglesNFT"> <Image className='img-fluid' src={twitter} alt='mingle-twitter' width={41.783} height={41.783} ></Image> </Nav.Link>
-            <Nav.Link href="#"> <Image className='img-fluid' src={telegram} alt='mingle-telegram' width={41.783} height={41.783} ></Image> </Nav.Link> 
+            <Nav.Link href="https://t.me/+GSt8l8YvobYxMmFh"> <Image className='img-fluid' src={telegram} alt='mingle-telegram' width={41.783} height={41.783} ></Image> </Nav.Link> 
             <Nav.Link href="#mingle" disabled><button type="button" className="btn btn-outline-dark" disabled >Come Mingle</button></Nav.Link>
           </Nav>
         </Navbar.Collapse>
