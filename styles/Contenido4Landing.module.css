@@ -18,9 +18,9 @@
 }
 
 .buttons{
-    cursor:pointer;
+    
     content: url(../public/assets/buttons/JOIN_MINGLES_buttonUP.png);
-    width: 20vw;
+    width: 5vw;
     height: auto;
     margin-top: 5vh;
 }
