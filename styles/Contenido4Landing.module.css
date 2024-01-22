@@ -20,9 +20,9 @@
 .buttons{
     
     content: url(../public/assets/buttons/JOIN_MINGLES_buttonUP.png);
-    width: 5vw;
+    width: 7.5rem;
     height: auto;
-    margin-top: 5vh;
+    
 }
 
 .buttons:hover {   

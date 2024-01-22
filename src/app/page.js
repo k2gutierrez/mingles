@@ -8,6 +8,7 @@ import Contenido6Landing from '../../components/Contenido6Landing'
 import Contenido7Landing from '../../components/Contenido7Landing'
 
 export default function Home() {
+
   return (
     <>
       <Contenido1Landing />

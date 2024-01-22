@@ -22,9 +22,9 @@ const fontAgrandir = localFont({
 export default function Scroll() {
   return (
     <>
-        <div class={cls(styles.over, "row align-items-center text-center justify-content-center")}>
-            <div class="">
-                <div data-bs-spy="scroll" data-bs-smooth-scroll="true" class="scrollspy-example-2" tabindex="0">
+        <div className={cls(styles.over, "row align-items-center text-center justify-content-center")}>
+            <div className="">
+                <div data-bs-spy="scroll" data-bs-smooth-scroll="true" className="scrollspy-example-2" tabIndex="0">
                 <div className={cls(fontAgrandir.className, 'row ')}>
 
                     <div className='col-md-6 col-12'>

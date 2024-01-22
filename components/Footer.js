@@ -9,6 +9,7 @@ import localFont from 'next/font/local'
 import Link from 'next/link';
 import logo from '../public/assets/Logo/Mingles_Logo_Color_Mesa_de_trabajo_1.png'
 import { useRouter } from 'next/navigation';
+import ModalEmail3 from './ModalEmail3';
 
 const fontQuirky = localFont({ 
   src: '../public/fonts/quirky/QuirkySunflower.otf'
@@ -31,7 +32,7 @@ function Footer() {
 
               <Link href={'/'}><Image src={logo} className='img-fluid' alt='Mingles' width={240} height={66.853} ></Image></Link>
 
-              <button type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-sm btn-outline-dark")}>Download Manifesto</button>
+              <ModalEmail3 />
 
               <button onClick={() => router.push('https://t.me/+GSt8l8YvobYxMmFh')} type="button" className={cls(styles.buttons, fontAgrandir.className, "btn btn-sm btn-outline-dark me-sm-auto")}>Join Mingles</button>
               <div className='row'>

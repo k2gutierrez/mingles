@@ -4,6 +4,7 @@ import cls from 'classnames'
 import Image from 'next/image'
 import manifesto from '../public/assets/manifesto.png' 
 import localFont from 'next/font/local'
+import ModalEmail2 from './ModalEmail2'
 
 const fontQuirky = localFont({ 
     src: '../public/fonts/quirky/QuirkySunflower.otf'
@@ -32,7 +33,7 @@ function Contenido5Landing() {
                     starting with a click. Let&apos;s Mingle!
                 </p>
 
-                <Image src=''  className={cls(styles.buttons, 'img-fluid')} width={250} height={80} alt='Download Manifesto' />       
+                <ModalEmail2 />       
             </div>
         </div>
     </main>

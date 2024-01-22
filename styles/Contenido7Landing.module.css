@@ -13,7 +13,7 @@
 .myButton{
     cursor:pointer;
     content: url(../public/assets/buttons/termsconditions_up-01.png);
-    width: 10vw;
+    width: 10rem;
     height: auto;
     margin-top: 5vh;
 }

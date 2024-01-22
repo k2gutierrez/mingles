@@ -10,6 +10,7 @@ import recurso from '../public/assets/recurso14.png'
 import localFont from 'next/font/local'
 import Slider from './Slider'
 import Link from 'next/link'
+import ModalEmail from './ModalEmail'
 
 const fontQuirky = localFont({ 
     src: '../public/fonts/quirky/QuirkySunflower.otf'
@@ -22,8 +23,6 @@ const fontAgrandir = localFont({
 
 function Contenido1Landing() { 
 
-
-
   return (
     <main className={cls(styles.fondo, 'pt-5 align-items-center')}>
         <div className={cls(styles.contenido, 'row align-items-center justify-content-center px-4')}>
@@ -33,10 +32,17 @@ function Contenido1Landing() {
                         <p className={styles.quirk}>Let&apos;s buy a <br/> tequila distillery <br/> together!</p> 
                     </div>
                     <div className={cls('col-md-12 col-6')}>
-                        <Image src=''  className={cls(styles.myButton2, 'img-fluid')} width={150} height={50} alt='Download Manifesto' />
-                        <Link href='https://t.me/+GSt8l8YvobYxMmFh'>
-                            <Image src=''  className={cls(styles.myButton1, 'img-fluid')} width={150} height={50} alt='Join-Mingles' />
-                        </Link>
+                        <ModalEmail />
+                        {/*<form>
+                            <button type='submit' formAction={send} className="btn btn-transparent" >
+                                <Image src=''  className={cls(styles.myButton2, 'img-fluid')} width={150} height={50} alt='Download Manifesto' />
+                            </button>
+                            <Link href='https://t.me/+GSt8l8YvobYxMmFh'>
+                                <Image src=''  className={cls(styles.myButton1, 'img-fluid')} width={150} height={50} alt='Join-Mingles' />
+                            </Link>
+                        </form>*/}
+                        
+                        
                         {/*
                         <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Download Manifesto</button>
                         <button type="button" className={cls(fontAgrandir.className, styles.buttons, "btn btn-light my-1")} >Join Mingles</button>
@@ -61,7 +67,7 @@ function Contenido1Landing() {
         <div className={cls('row px-4 pt-2')}>
             
             <div className=''>
-            <Image src={recurso} className='img-fluid' alt="y'all Mingle!" width={528} height={809.5} />
+            <Image src={recurso} className={cls(styles.call, 'img-fluid')} alt="y'all Mingle!" width={300} height={809.5} />
             </div>
             {/*<p className={cls(fontAgrandir.className, styles.forsaken2)}>A <span className={cls(fontAgrandir.className, styles.worm)}>worm</span> call for y&apos;all to Mingle. <br/> It's time to bring our legacy back.</p>*/}
         </div>

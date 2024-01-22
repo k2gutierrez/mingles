@@ -17,6 +17,11 @@
 
 }
 
+.call {
+    width: 15rem;
+    height: auto;
+}
+
 .myButton1:hover {   
     content: url(../public/assets/buttons/JOIN_MINGLES_buttondown.png);
 }
