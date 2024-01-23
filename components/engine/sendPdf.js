@@ -1,12 +1,12 @@
 "use server"
 
-import { sendMail, compileEmail } from "./mail";
+import { sendMail } from "./mail";
 import { emailTemplate } from "../templates/email";
 
-export async function send (email) {
+export async function send (to) {
 
     await sendMail({
-        to: email,
+        to: to,
         name: "Mingles Manifesto",
         subject: "Come Mingle so we can fight to get our lands back",
         body: emailTemplate

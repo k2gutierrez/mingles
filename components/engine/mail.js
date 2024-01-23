@@ -3,13 +3,19 @@ import nodemailer from "nodemailer"
 import { emailTemplate } from "../templates/email"
 
 export async function sendMail ({to, name, subject, body}) {
-    const {SMTP_PASSWORD, SMTP_EMAIL} = process.env
+    const smtp_email = process.env.SMTP_EMAIL
+    const smtp_password = process.env.SMTP_PASSWORD
+    
     const transport = nodemailer.createTransport({
         service: "gmail",
+        port: 465,
         secure: true,
         auth:{
-            user: SMTP_EMAIL,
-            pass: SMTP_PASSWORD
+            user: smtp_email,
+            pass: smtp_password
+        },
+        tls: {
+            rejectUnauthorized: false
         }
     })
     try {
@@ -22,7 +28,7 @@ export async function sendMail ({to, name, subject, body}) {
 
     try {
         const sendResult = await transport.sendMail({
-            from: SMTP_EMAIL, 
+            from: smtp_email, 
             to, 
             subject, 
             html: body,
