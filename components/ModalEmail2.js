@@ -41,7 +41,7 @@ function ModalEmail2() {
    
   }
 
-  const registerEmail = async () => {
+  {/*const registerEmail = async () => {
 
     const ref = doc(db, 'Mingles', 'emails')
     if (email != '') {
@@ -60,6 +60,30 @@ function ModalEmail2() {
     }
 
     setEmail("")
+    setTimeout(handleAll, 3000)
+
+  }*/}
+
+  const registerEmail = async (e) => {
+
+    const emailValue = e.get("email")
+
+    const ref = doc(db, 'Mingles', 'emails')
+    if (emailValue != '') {
+      
+      const em = await send(emailValue)
+      
+      await updateDoc(ref, {
+          emails: arrayUnion(emailValue)
+      })
+      setMessage('We will send you the Mingles Manifesto to your email, thank you!')
+      setMessage2('Check your spam in case the email was sent there!')
+      
+    } else {
+      setMessage('No Email has been submitted, try again please')
+      setMessage2('')
+    }
+
     setTimeout(handleAll, 3000)
 
   }
@@ -84,11 +108,11 @@ function ModalEmail2() {
         </Modal.Body>
         <Modal.Footer className='text-center justify-content-center'>
             <div className='row gap-5'>
-              <form >
+              <form autoComplete='off' method='post' action={registerEmail} >
                 <p>Please enter your email to receive Manifesto</p>
-                <input type='email' name='email' id='email' className='mb-2' placeholder='mingle@together.com' onChange={(e) => setEmail(e.target.value) } />
+                <input type='email' name='email' id='email' className='mb-2' placeholder='mingle@together.com'  />
 
-                <Button type='button' onClick={registerEmail} className={'ms-3'} variant="info">
+                <Button type='submit' className={'ms-3'} variant="info">
                     Register
                 </Button>
                 <p className=''>{ message }</p>

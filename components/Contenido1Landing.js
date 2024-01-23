@@ -61,7 +61,7 @@ function Contenido1Landing() {
                 <Slider />
             </div>
             <div className='col-md-12 col-8 order-md-4 order-2 pt-md-0 pt-5'>
-                <p className={cls(fontQuirky.className, styles.forsaken, styles.contorno)}>The foresaken story of Tequila</p>
+                <p className={cls(fontQuirky.className, styles.forsaken, styles.contorno)}>The forsaken story of Tequila</p>
             </div>
         </div>
         <div className={cls('row px-4 pt-2')}>
