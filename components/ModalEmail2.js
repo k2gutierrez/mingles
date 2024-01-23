@@ -11,6 +11,7 @@ import { send } from './engine/sendPdf';
 import { useState } from 'react';
 import { arrayUnion, updateDoc, doc } from 'firebase/firestore';
 import { db } from './engine/configuration';
+import manifesto from '../public/assets/buttons/Manifesto_Download_buttonUp.png'
 
 
 const fontQuirky = localFont({ 
@@ -57,7 +58,7 @@ function ModalEmail2() {
 
       <div >
         <button type='button' onClick={handleShow} className="btn btn-transparent" >
-          <Image src=''  className={cls(styles.buttons, 'img-fluid')} width={250} height={80} alt='Download Manifesto' />
+          <Image src={manifesto}  className={cls(styles.buttons, 'img-fluid')} width={250} height={80} alt='Download Manifesto' />
         </button>
       </div>
 

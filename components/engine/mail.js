@@ -1,5 +1,5 @@
 import nodemailer from "nodemailer"
-import * as handlebars from "handlebars"
+//import * as handlebars from "handlebars"
 import { emailTemplate } from "../templates/email"
 
 export async function sendMail ({to, name, subject, body}) {
@@ -39,8 +39,8 @@ export async function sendMail ({to, name, subject, body}) {
     }
 } 
 
-export function compileEmail() {
+{/*export function compileEmail() {
     const template = handlebars.compile(emailTemplate)
     const htmlBody = template()
     return htmlBody
-}
+}*/}

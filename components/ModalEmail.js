@@ -11,6 +11,8 @@ import { send } from './engine/sendPdf';
 import { useState } from 'react';
 import { arrayUnion, updateDoc, doc } from 'firebase/firestore';
 import { db } from './engine/configuration';
+import manifesto from '../public/assets/buttons/Manifesto_Download_buttonUp.png'
+import joinMingles from '../public/assets/buttons/JOIN_MINGLES_buttonUP.png'
 
 
 const fontQuirky = localFont({ 
@@ -57,10 +59,10 @@ function ModalEmail() {
 
       <div >
         <button type='button' onClick={handleShow} className="btn btn-transparent" >
-          <Image src=''  className={cls(styles.myButton2, 'img-fluid')} width={150} height={50} alt='Download Manifesto' />
+          <Image src={manifesto}  className={cls(styles.myButton2, 'img-fluid')} width={150} height={50} alt='Download Manifesto' />
         </button>
         <Link href='https://t.me/+GSt8l8YvobYxMmFh'>
-          <Image src=''  className={cls(styles.myButton1, 'img-fluid')} width={150} height={50} alt='Join-Mingles' />
+          <Image src={joinMingles}  className={cls(styles.myButton1, 'img-fluid')} width={150} height={50} alt='Join-Mingles' />
         </Link>
       </div>
 

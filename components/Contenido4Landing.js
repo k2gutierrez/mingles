@@ -8,6 +8,7 @@ import n1 from '../public/assets/n1.png'
 import n2 from '../public/assets/n2.png'
 import n3 from '../public/assets/n3.png'
 import Link from 'next/link'
+import joinMingles from '../public/assets/buttons/JOIN_MINGLES_buttonUP.png'
 
 const fontQuirky = localFont({ 
     src: '../public/fonts/quirky/QuirkySunflower.otf'
@@ -35,7 +36,8 @@ function Contenido4Landing() {
             <Image src={n3} className={cls(styles.n3, 'img-fluid p-1')} alt="3" width={355} height={488} />
         </div>
         <div className=''>
-            <Link href='https://t.me/+GSt8l8YvobYxMmFh'><Image src=''  className={cls(styles.buttons, 'img-fluid')} width={150} height={80} alt='Join Mingles' /></Link>
+            <Link href='https://t.me/+GSt8l8YvobYxMmFh'><Image src={joinMingles}  className={cls(styles.buttons, 'img-fluid')}  alt='Join Mingles' /></Link>
+                 {/*width={150} height={80}*/}
         </div>
         
     </main>

@@ -4,6 +4,7 @@ import cls from 'classnames'
 import localFont from 'next/font/local'
 import Image from 'next/image'
 import Link from 'next/link'
+import terms from '../public/assets/buttons/termsconditions_up-01.png'
 
 const fontQuirky = localFont({ 
     src: '../public/fonts/quirky/QuirkySunflower.otf' 
@@ -20,7 +21,9 @@ function Contenido7Landing() {
   return (
     <main className={cls(styles.contenido, 'p-5')}>
       <div className={cls('row align-items-center justify-content-center')}>
-        <Link href={'/termsandconditions'}><Image src=''  className={cls(styles.myButton, 'img-fluid')} width={150} height={80} alt='Terms and Conditions' /></Link>
+        <div>
+          <Link href={'/termsandconditions'}><Image src={terms}  className={cls(styles.myButton, 'img-fluid')} width={150} height={80} alt='Terms and Conditions' /></Link>
+        </div>
       </div>
     </main>
   )

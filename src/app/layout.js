@@ -1,6 +1,6 @@
+import "bootstrap/dist/css/bootstrap.min.css"
 import './globals.css'
 import 'sf-font'
-import "bootstrap/dist/css/bootstrap.min.css"
 import ImportBootstrap from '../../components/ImportBootstrap'
 import NavBar from '../../components/NavBar'
 import Footer from '../../components/Footer'

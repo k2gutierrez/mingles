@@ -44,11 +44,15 @@ function ModalEmail3() {
         setMessage('We will send you the Mingles Manifesto to your email, thank you!')
         setMessage2('Check your spam in case the email was sent there!')
         
+        await send(email)
+        setEmail('')
+        await setTimeout(handleHide, 3000)
+        
     } else {
       setMessage('No Email has been submitted, try again please')
     }
 
-    await send(email)
+    
 
   }
 
