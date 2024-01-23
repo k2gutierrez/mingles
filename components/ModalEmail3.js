@@ -33,26 +33,34 @@ function ModalEmail3() {
   
   const handleHide = () => setShow(false)
 
+  const handleAll = () => {
+    setShow(false)
+    setMessage('')
+    setMessage2('')
+   
+  }
+
   const registerEmail = async () => {
 
 
     const ref = doc(db, 'Mingles', 'emails')
     if (email != '') {
-        await updateDoc(ref, {
-            emails: arrayUnion(email)
-        })
-        setMessage('We will send you the Mingles Manifesto to your email, thank you!')
-        setMessage2('Check your spam in case the email was sent there!')
-        
-        await send(email)
-        setEmail('')
-        await setTimeout(handleHide, 3000)
-        
+
+      const em = await send(email)
+      
+      await updateDoc(ref, {
+          emails: arrayUnion(email)
+      })
+      setMessage('We will send you the Mingles Manifesto to your email, thank you!')
+      setMessage2('Check your spam in case the email was sent there!')
+      
     } else {
       setMessage('No Email has been submitted, try again please')
+      setMessage2('')
     }
 
-    
+    setEmail("")
+    setTimeout(handleAll, 3000)
 
   }
 
