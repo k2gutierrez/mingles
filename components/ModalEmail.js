@@ -40,7 +40,9 @@ function ModalEmail() {
 
     const ref = doc(db, 'Mingles', 'emails')
     if (email != '') {
-        await updateDoc(ref, {
+
+     await send(email)
+   await updateDoc(ref, {
             emails: arrayUnion(email)
         })
         setMessage('We will send you the Mingles Manifesto to your email, thank you!')
@@ -49,8 +51,6 @@ function ModalEmail() {
     } else {
       setMessage('No Email has been submitted, try again please')
     }
-
-    await send(email)
 
   }
 
