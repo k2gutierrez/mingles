@@ -2,7 +2,7 @@ import nodemailer from "nodemailer"
 //import * as handlebars from "handlebars"
 import { emailTemplate } from "../templates/email"
 
-export async function sendMail ({to, name, subject, body}) {
+export async function sendMail ({to, subject, body}) { //name removed from function scope
     const smtp_email = process.env.SMTP_EMAIL
     const smtp_password = process.env.SMTP_PASSWORD
     
