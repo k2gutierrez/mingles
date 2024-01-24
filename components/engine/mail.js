@@ -54,7 +54,7 @@ export async function sendMail ({to, subject, body}) { //name removed from funct
 
 } 
 
-{/*export function compileEmail() {
+{/* funcion ara agregar variables después export function compileEmail() {
     const template = handlebars.compile(emailTemplate)
     const htmlBody = template()
     return htmlBody
