@@ -71,6 +71,7 @@ function ModalEmail() {
 
     if (email != '') {
       const em = send(email)
+      console.log(em)
     }
 
   }, [email])
