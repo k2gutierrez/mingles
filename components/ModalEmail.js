@@ -94,7 +94,7 @@ function ModalEmail() {
             <div className='row gap-5'>
               <form autoComplete="off" method='post' action={registerEmail} >
                 <p>Please enter your email to receive Manifesto</p>
-                <input type='email' name='email' id='email' placeholder='mingle@together.com'  /> {/*onChange={(e) => setEmail(e.target.value) }*/}
+                <input type='email' autoComplete="off" name='email' id='email' placeholder='mingle@together.com'  /> {/*onChange={(e) => setEmail(e.target.value) }*/}
 
                 <Button type='submit' className={'ms-3'} variant="info">
                     Register
