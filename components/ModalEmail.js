@@ -52,7 +52,7 @@ function ModalEmail() {
             emails: arrayUnion(email)
         })
         setMessage('We will send you the Mingles Manifesto to your email, thank you!')
-        setMessage2('Check your spam in case the email was sent there!')
+        setMessage2('Check your spam in case the email was sent there please!')
     } else {
       setMessage('No Email has been submitted, try again please')
       setMessage2('')
