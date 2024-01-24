@@ -82,11 +82,11 @@ function ModalEmail3() {
         </Modal.Body>
         <Modal.Footer className='text-center justify-content-center'>
             <div className='row gap-5'>
-              <form action={registerEmail}>
+              <form >
                 <p>Please enter your email to receive Manifesto</p>
                 <input type='email' name='email' id='email' className='mb-2' placeholder='mingle@together.com' onChange={(e) => setEmail(e.target.value) } />
 
-                <Button type='submit' className={'ms-3'} variant="info">
+                <Button type='button' onClick={registerEmail} className={'ms-3'} variant="info">
                     Register
                 </Button>
                 <p className=''>{ message }</p>
