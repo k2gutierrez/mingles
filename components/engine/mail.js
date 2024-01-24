@@ -26,8 +26,8 @@ export async function sendMail ({to, subject, body}) { //name removed from funct
         return
     }
 
-    try {
-        const sendResult = await transport.sendMail({
+    const sendResult = await new Promise((resolve, reject) => {
+        transport.sendMail({
             from: smtp_email, 
             to, 
             subject, 
@@ -38,12 +38,20 @@ export async function sendMail ({to, subject, body}) { //name removed from funct
                     path: 'components/engine/MinglesManifesto.pdf'
                 }
             ]
-        })
-        console.log(sendResult)
-    } catch (error) {
-        console.log(error)
-        return
-    }
+        }, (err, response) => {
+            if (err) {
+                reject(err)
+            } else {
+                resolve(response)
+            }
+        }
+        
+        )
+        
+    })
+    console.log(sendResult)
+         
+
 } 
 
 {/*export function compileEmail() {
