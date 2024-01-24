@@ -82,9 +82,9 @@ function ModalEmail3() {
         </Modal.Body>
         <Modal.Footer className='text-center justify-content-center'>
             <div className='row gap-5'>
-              <form autoComplete='off' method='post' action={registerEmail} >
+              <form autoComplete='off' method='post' id='form3' action={registerEmail} >
                 <p>Please enter your email to receive Manifesto</p>
-                <input type='email' name='email' id='email' className='mb-2' placeholder='mingle@together.com'  />
+                <input type='email' autoComplete="off" name='email' id='email' className='mb-2' placeholder='mingle@together.com'  />
 
                 <Button type='submit' className={'ms-3'} variant="info">
                     Register

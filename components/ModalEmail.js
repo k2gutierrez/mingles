@@ -8,7 +8,7 @@ import Link from 'next/link';
 import cls from 'classnames'
 import localFont from 'next/font/local'
 import { send } from './engine/sendPdf';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { arrayUnion, updateDoc, doc } from 'firebase/firestore';
 import { db } from './engine/configuration';
 import manifesto from '../public/assets/buttons/Manifesto_Download_buttonUp.png'
@@ -47,11 +47,10 @@ function ModalEmail() {
   const registerEmail = async (e) => {
     
     const emailValue = e.get("email")
+    setEmail(emailValue)
     
     const ref = doc(db, 'Mingles', 'emails')
     if (emailValue != '') {
-
-      const em = await send(emailValue)
 
       await updateDoc(ref, {
             emails: arrayUnion(emailValue)
@@ -66,8 +65,15 @@ function ModalEmail() {
     //setEmail("")
     setTimeout(handleAll, 3000)
     
-    
   }
+
+  useEffect(() => {
+
+    if (email != '') {
+      const em = send(email)
+    }
+
+  }, [email])
 
   return (
     <>
@@ -92,7 +98,7 @@ function ModalEmail() {
         </Modal.Body>
         <Modal.Footer className='text-center justify-content-center'>
             <div className='row gap-5'>
-              <form autoComplete="off" method='post' action={registerEmail} >
+              <form autoComplete="off" method='post' id='form1' action={registerEmail} >
                 <p>Please enter your email to receive Manifesto</p>
                 <input type='email' autoComplete="off" name='email' id='email' placeholder='mingle@together.com'  /> {/*onChange={(e) => setEmail(e.target.value) }*/}
 
