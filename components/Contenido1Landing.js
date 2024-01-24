@@ -11,7 +11,7 @@ import localFont from 'next/font/local'
 import Slider from './Slider'
 import Link from 'next/link'
 import ModalEmail from './ModalEmail'
-///
+/////
 const fontQuirky = localFont({ 
     src: '../public/fonts/quirky/QuirkySunflower.otf'
 } )
