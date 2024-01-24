@@ -56,7 +56,7 @@ export async function sendMail ( {to, subject, body} ) { //name removed from fun
         )
         
     })
-    console.log(sendResult)
+    
          
 
 } 
