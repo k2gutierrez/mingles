@@ -7,7 +7,7 @@ export async function send (to) {
 
     await sendMail({
         to: to,
-        name: "Mingles Manifesto",
+        //name: "Mingles Manifesto",
         subject: "Come Mingle so we can fight to get our lands back",
         body: emailTemplate
     })
