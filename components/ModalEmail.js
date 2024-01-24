@@ -15,11 +15,11 @@ import manifesto from '../public/assets/buttons/Manifesto_Download_buttonUp.png'
 import joinMingles from '../public/assets/buttons/JOIN_MINGLES_buttonUP.png'
 
 
-let fontQuirky = localFont({ 
+const fontQuirky = localFont({ 
   src: '../public/fonts/quirky/QuirkySunflower.otf'
 } )
 
-let fontAgrandir = localFont({
+const fontAgrandir = localFont({
   src: '../public/fonts/agrandir/Agrandir-Regular.otf'
 })
 
