@@ -9,6 +9,8 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@aws-sdk/client-ses": "^3.499.0",
+    "@aws-sdk/credential-provider-node": "^3.499.0",
     "@metamask/detect-provider": "^2.0.0",
     "@openzeppelin/contracts": "^5.0.1",
     "@preact/signals": "^1.2.2",

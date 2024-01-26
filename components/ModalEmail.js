@@ -99,7 +99,7 @@ function ModalEmail() {
         </Modal.Body>
         <Modal.Footer className='text-center justify-content-center'>
             <div className='row gap-5'>
-              <form autoComplete="off" method='post' id='form1' action={registerEmail} >
+              <form autoComplete="off" id='form1' action={registerEmail} >
                 <p>Please enter your email to receive Manifesto</p>
                 <input type='email' autoComplete="off" name='email' id='email' placeholder='mingle@together.com'  /> {/*onChange={(e) => setEmail(e.target.value) }*/}
 
