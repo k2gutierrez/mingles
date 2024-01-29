@@ -1,23 +1,19 @@
 import nodemailer from "nodemailer"
 //import * as handlebars from "handlebars"
-import { emailTemplate } from "../templates/email"
-import SESTransport from "nodemailer/lib/ses-transport"
 
-export async function sendMail ( {to, from, subject, body} ) { //name removed from function scope
-    //const smtp_email = process.env.SMTP_EMAIL
-    //const smtp_password = process.env.SMTP_PASSWORD
+
+export async function sendMail ( {to, subject, body} ) { //name removed from function scope
 
 
     const transport = nodemailer.createTransport({
-        port: 465,
-        host: process.env.REGION_AWS,
-        secure: true,
+
+        service: "Gmail",
+        secure: false,
         auth: {
-            user: process.env.SMTP_USER_AWS,
-            pass: process.env.SMTP_PASS_AWS,
+            user: process.env.SMTP_EMAIL,
+            pass: process.env.SMTP_PASSWORD,
         },
-        tls: true,
-        debug: true,
+
     })
 
     const testResult = await new Promise((resolve, reject) => {
@@ -35,7 +31,7 @@ export async function sendMail ( {to, from, subject, body} ) { //name removed fr
 
     const sendResult = await new Promise((resolve, reject) => {
         transport.sendMail({
-            from: 'minglesnft@gmail.com', 
+            from: process.env.SMTP_EMAIL, 
             to: to, 
             subject: subject, 
             html: body,
