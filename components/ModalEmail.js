@@ -57,6 +57,9 @@ function ModalEmail() {
         })
         setMessage('We will send you the Mingles Manifesto to your email, thank you!')
         setMessage2('Check your spam in case the email was sent there please!')
+
+        downloadPDF()
+        
     } else {
       setMessage('No Email has been submitted, try again please')
       setMessage2('')
@@ -67,14 +70,24 @@ function ModalEmail() {
     
   }
 
-  useEffect(() => {
+  const downloadPDF = async () => {
+    const pdfUrl = "/MinglesManifesto.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "MinglesManifesto.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+        document.body.removeChild(link);
+  }
+
+  {/*useEffect(() => {
 
     if (email != '') {
       const em = send(email)
       console.log('send function:', em)
     }
 
-  }, [email])
+  }, [email])*/}
 
   return (
     <>
@@ -104,7 +117,7 @@ function ModalEmail() {
                 <input type='email' autoComplete="off" name='email' id='email' placeholder='mingle@together.com'  /> {/*onChange={(e) => setEmail(e.target.value) }*/}
 
                 <Button type='submit' className={'ms-3'} variant="info">
-                    Register
+                  Download Manifesto
                 </Button>
                 <p className=''>{ message }</p>
                 <p className=''>{ message2 }</p>

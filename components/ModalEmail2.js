@@ -71,14 +71,14 @@ function ModalEmail2() {
     const ref = doc(db, 'Mingles', 'emails')
     if (emailValue != '') {
       
-      const em = await send(emailValue)
-      
       await updateDoc(ref, {
           emails: arrayUnion(emailValue)
       })
       setMessage('We will send you the Mingles Manifesto to your email, thank you!')
       setMessage2('Check your spam in case the email was sent there!')
       
+      downloadPDF()
+
     } else {
       setMessage('No Email has been submitted, try again please')
       setMessage2('')
@@ -86,6 +86,16 @@ function ModalEmail2() {
 
     setTimeout(handleAll, 3000)
 
+  }
+
+  const downloadPDF = async () => {
+    const pdfUrl = "/MinglesManifesto.pdf";
+    const link = document.createElement("a");
+    link.href = pdfUrl;
+    link.download = "MinglesManifesto.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+        document.body.removeChild(link);
   }
 
   return (
@@ -113,7 +123,7 @@ function ModalEmail2() {
                 <input type='email' autoComplete="off" name='email' id='email' className='mb-2' placeholder='mingle@together.com'  />
 
                 <Button type='submit' className={'ms-3'} variant="info">
-                    Register
+                    Download Manifesto
                 </Button>
                 <p className=''>{ message }</p>
                 <p className=''>{ message2 }</p>
