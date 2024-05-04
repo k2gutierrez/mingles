@@ -37,7 +37,7 @@ function Contenido1Landing() {
                             <button type='submit' formAction={send} className="btn btn-transparent" >
                                 <Image src=''  className={cls(styles.myButton2, 'img-fluid')} width={150} height={50} alt='Download Manifesto' />
                             </button>
-                            <Link href='https://t.me/+GSt8l8YvobYxMmFh'>
+                            <Link href='https://waitlist.mingles.wtf/'>
                                 <Image src=''  className={cls(styles.myButton1, 'img-fluid')} width={150} height={50} alt='Join-Mingles' />
                             </Link>
                         </form>*/}
