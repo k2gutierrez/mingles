@@ -41,7 +41,7 @@ function Footer() {
               
               </div>
               <div className='col-6'>
-                <Link href="https://t.me/+GSt8l8YvobYxMmFh"> <Image className='img-fluid' src={telegram} alt='mingle-telegram' width={61.281} height={61.281} ></Image> </Link>
+                <Link href="https://waitlist.mingles.wtf/"> <Image className='img-fluid' src={telegram} alt='mingle-telegram' width={61.281} height={61.281} ></Image> </Link>
               </div>
               </div>
               
